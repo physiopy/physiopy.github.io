@@ -39,7 +39,7 @@ in this guide? Jump to the following sections:
 -   [Automatic Testing](#testing)
 -   [Recognizing contributors](#recognising)
 
-[Aims of `physiopy`](#aims)
+Aims of `physiopy`(#aims)
 
 
 `physiopy` is a **very** young project developed by a bunch of
@@ -327,17 +327,17 @@ check that:
 
 Your code respects the [adopted Style](#styling), especially:
 
-    -   Your code is lintered adequately and respects the
+-   Your code is lintered adequately and respects the
             [PEP8](https://www.python.org/dev/peps/pep-0008/)
             convention.
-    -   Your docstrings follow the
+-   Your docstrings follow the
             [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)
             convention.
-    -   There are no typos or grammatical mistakes and the text is
+-   There are no typos or grammatical mistakes and the text is
             fluid.
-    -   The code is sufficiently commented and the comments are
+-   The code is sufficiently commented and the comments are
             clear.
-    -   Your PR title is clear enough to be meaningful when appended
+-   Your PR title is clear enough to be meaningful when appended
             to the version changelog.
 
 -   You have the correct labels.
