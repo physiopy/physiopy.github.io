@@ -282,6 +282,8 @@ differences are:
 -   We suggest opening a draft PR as soon as you can - so it's easier
     for us to help you!
 
+See our [complete documentation](CONTRIBUTING.md#contributing) on the matter
+
 [Pull Requests](#pr)
 --------------------------------------
 
@@ -324,20 +326,15 @@ check that:
 -   Your code is harmonious with the rest of the code - no repetitions
     of any sort!
 
-Your code respects the [adopted Style](#styling), especially:
+Your code respects the [adopted Style](#styling), especially if:
 
--   Your code is lintered adequately and respects the
-            [PEP8](https://www.python.org/dev/peps/pep-0008/)
-            convention.
--   Your docstrings follow the
-            [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)
-            convention.
--   There are no typos or grammatical mistakes and the text is
-            fluid.
--   The code is sufficiently commented and the comments are
-            clear.
--   Your PR title is clear enough to be meaningful when appended
-            to the version changelog.
+-   Your code is lintered adequately and respects the [PEP8](https://www.python.org/dev/peps/pep-0008/) convention.
+-   Your docstrings follow the [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html) convention.
+-   There are no typos or grammatical mistakes and the text is fluid.
+
+-   The code is sufficiently commented and the comments are clear.
+
+-   Your PR title is clear enough to be meaningful when appended to the version changelog.
 
 -   You have the correct labels.
 
@@ -345,7 +342,9 @@ Your code respects the [adopted Style](#styling), especially:
 
 1.  Pass all the CircleCI tests, and possibly all the codecov checks.
 2.  Have the necessary amount of approving reviews, even if you're a
-    long time contributor. You can ask one (or more) contributor to do
+    long time contributor.
+
+    Note : You can ask one (or more) contributor to do
     that review, if you think they align more with the content of your
     PR. You need **one** review for documentation, tests, and small
     changes, and **two** reviews for bugs, refactoring and enhancements.
@@ -380,18 +379,22 @@ that the changes work and integrate well with the rest of the
 repository, hence **you are responsible for the quality of the
 repository and its next version release**. If they don\'t integrate
 well, later PR reviewers might have to ask for broader changes than
-expected. There are many best practices to review code online, for
-instance [this one](https://medium.com/an-idea/the-code-review-guide-9e793edcd683), but
+expected.
+
+There are many best practices to review code online, for
+instance [this medium blog post](https://medium.com/an-idea/the-code-review-guide-9e793edcd683), but
 here are some good rules of thumbs that we need to follow while
 reviewing PRs:
 
--   Be respectful to the PR authors and be clear in what you are
+-   Be **respectful** to the PR authors and be clear in what you are
     asking/suggesting - remember that, like you, they are contributing
     their spare time and doing their best job!
--   If there is a Draft PR, you can comment on its development in the
+
+-   If there is a *Draft PR*, you can comment on its development in the
     message board or making "Comment" reviews. Don't ask for changes,
     and especially, **don't approve the PR**
--   If the PR graduated from Draft to full PR, check that it follows the
+
+-   If the PR graduated *from Draft to full PR*, check that it follows the
     sections [Pull requests](#pr) and [Style Guide](#styling) of these
     guidelines. If not, invite the author to do so before starting a
     review.
@@ -414,7 +417,7 @@ reviewing PRs:
     think about opening a new PR with those modifications (unless they
     are needed to pass tests), and alert the Main Reviewer. In any case
     **don't commit directly to the branch under review**!
--   If you're reviewing documentation, build it locally with `sphinx`.
+-   If you're reviewing documentation, build it locally with [`sphinx-build`](https://www.sphinx-doc.org/en/master/man/sphinx-build.html) command.
 -   If you're asking for changes, **don't approve the PR**. Approve it
     only after everything was sufficiently addressed. Someone else might
     merge the PR in taking your word for granted.
@@ -473,11 +476,9 @@ responsible **for the quality of the repository and its next version release**,
 
 ***After the PR has been merged and a new release has been triggered, checks that:***
 
-    -   The documentation was updated correctly (if changed).
-    -   The Pypi version of the repository coincides with the new
-            release (if changed).
-    -   New contributors or forms of contributions were correctly
-            added in the README (if changed).
+-   The documentation was updated correctly (if changed).
+-   The Pypi version of the repository coincides with the new release (if changed).
+-   New contributors or forms of contributions were correctly added in the README (if changed).
 
 [Style Guide](#styling)
 -------------------------
@@ -524,7 +525,7 @@ tests we use are:
 
 1.  Unit tests :
 
-    :   Unit tests check that a minimal piece of code is doing what it
+        Unit tests check that a minimal piece of code is doing what it
         should be doing. Normally this means calling a function with
         some mock parameters and checking that the output is equal to
         the expected output. For example, to test a function that adds
@@ -533,14 +534,14 @@ tests we use are:
 
 2.  Breaking tests
 
-    :   Breaking tests are what you expect - they check that the program
+        Breaking tests are what you expect - they check that the program
         is breaking when it should. This means calling a function with
         parameters that are expected **not** to work, and check that it
         raises a proper error or warning.
 
 3.  Integration tests
 
-    :   Integration tests check that the code has an expected output,
+        Integration tests check that the code has an expected output,
         being blind to its content. This means that if the program
         should output a new file, the file exists - even if it's empty.
         This type of tests are normally run on real data and call the
@@ -549,7 +550,7 @@ tests we use are:
 
 4.  Functional tests
 
-    :   If integration tests and unit tests could have babies, those
+        If integration tests and unit tests could have babies, those
         would be functional tests. In practice, this kind of tests check
         that an output is produced, and *also* that it contains what it
         should contain. If a function should output a new file or an

@@ -32,7 +32,7 @@ markdown_extensions:
   - codehilite
   - footnotes
   - toc:
-      permalink: true
+      permalink: "#"
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
