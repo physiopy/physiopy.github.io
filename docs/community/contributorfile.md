@@ -39,8 +39,8 @@ in this guide? Jump to the following sections:
 -   [Automatic Testing](#testing)
 -   [Recognizing contributors](#recognising)
 
-Aims of `physiopy`(#aims)
-
+[Aims of physiopy](#aims)
+============================
 
 `physiopy` is a **very** young project developed by a bunch of
 researchers from the two different sides of the Atlantic Ocean (for
@@ -247,7 +247,7 @@ right PR labels**!
 
 #### Other labels
 
--   Invalid: These PRs don\'t seem right. They actually seem so not
+-   Invalid: These PRs don't seem right. They actually seem so not
     right that they won't be further processed. This label invalidates a
     Hacktoberfest contribution. If you think this is wrong, start a
     discussion in the relevant issue (or open one if missing). Reviewers
@@ -323,7 +323,6 @@ check that:
     sphinx and the format is what you intended.
 -   Your code is harmonious with the rest of the code - no repetitions
     of any sort!
--   
 
 Your code respects the [adopted Style](#styling), especially:
 
@@ -342,7 +341,7 @@ Your code respects the [adopted Style](#styling), especially:
 
 -   You have the correct labels.
 
-To be merged, PRs have to:
+#### To be merged, PRs have to:
 
 1.  Pass all the CircleCI tests, and possibly all the codecov checks.
 2.  Have the necessary amount of approving reviews, even if you're a
@@ -438,7 +437,9 @@ Before approving and/or merging PRs, be sure that:
 At `physiopy` we use the *Assignees* section of a PR to mark the
 **main reviewer** for that PR. The main reviewer is the primary person
 responsible **for the quality of the repository and its next version release**,
- as well as **for the behaviour of the other reviewers**. The main reviewer takes care of the reviewing process of the PR, in particular:
+ as well as **for the behaviour of the other reviewers**.
+
+***The main reviewer takes care of the reviewing process of the PR, in particular:***
 
 -   Invites the reviewers to finish their review in a relatively
     short time.
@@ -469,7 +470,8 @@ responsible **for the quality of the repository and its next version release**,
 
 -   Main reviewer **Is the one that is going to merge the PR.**
 
--   **After the PR has been merged and a new release has been triggered, checks that:**
+
+***After the PR has been merged and a new release has been triggered, checks that:***
 
     -   The documentation was updated correctly (if changed).
     -   The Pypi version of the repository coincides with the new
@@ -477,8 +479,8 @@ responsible **for the quality of the repository and its next version release**,
     -   New contributors or forms of contributions were correctly
             added in the README (if changed).
 
-Style Guide {#styling}
------------
+[Style Guide](#styling)
+-------------------------
 
 Docstrings should follow
 [numpydoc](https://numpydoc.readthedocs.io/en/latest/format.html)
@@ -501,7 +503,7 @@ letter. For instance, a good PR title could be:
 `Reorder dictionary entries`, rather than `<randomtype> support` or
 `reorders keys`.
 
-Automatic Testing {#testing}
+[Automatic Testing](#testing)
 -----------------
 
 `physiopy` uses Continuous Integration (CI) to make life easier. In
@@ -555,7 +557,7 @@ tests we use are:
         like we expect it to be. They are run on real or mock data, and
         call the program itself or a function.
 
-Recognising contributors {#recognising}
+[Recognising contributors](#recognising)
 ------------------------
 
 We welcome and recognize [all
