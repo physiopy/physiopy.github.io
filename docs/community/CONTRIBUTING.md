@@ -1,4 +1,4 @@
-Contributing to `physiopy` {#contributing}
+[Contributing to `physiopy`](#contributing)
 ==========================
 
 First of all: thank you!

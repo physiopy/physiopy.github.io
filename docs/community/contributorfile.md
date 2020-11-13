@@ -1,4 +1,4 @@
-How to contribute to `physiopy` {#contributorfile}
+[How to contribute to `physiopy`](#contributorfile)
 ===============================
 
 Welcome to the `physiopy` organisation! It's great news that you're
@@ -73,7 +73,7 @@ conduct](conduct.html).
 [Contributions](#contributiontypes)
 --------------------------------------
 
-### Contributing with small documentation changes {#smalldocs}
+### [Contributing with small documentation changes](#smalldocs)
 
 If you are new to GitHub and just have a small documentation change
 recommendation (such as: typos detection, small improvements in the
@@ -82,7 +82,7 @@ it with the "Documentation" label. Chances are those types of changes
 are easily doable with GitHub\'s online editor, which means you can do
 them, or ask for help from the developers!
 
-### Contributing with User testing {#usertests}
+### [Contributing with User testing](#usertests)
 
 Another, non-coding friendly way to contribute to `physiopy` is by
 testing the packages. There are different kinds of tests, but to
@@ -97,7 +97,7 @@ open an issue on GitHub or drop a comment in Gitter, refer to this
 [blueprint](https://docs.google.com/document/d/1b6wc7JVDs3vi-2IqGg_Ed_oWKbZ6siboAJHf55nodKo/edit?usp=sharing)
 and don't be afraid to ask questions!
 
-### Contributing with test files {#testfile}
+### [Contributing with test files](#testfile)
 
 At `physiopy` we always try to imagine and support every possible
 setting out there. However, our imagination has a limit - but if you
@@ -118,13 +118,13 @@ add the file in our [OSF](https://osf.io/3txqr/) space. We're extremely
 grateful for this type of contribution - so grateful that we asked
 allcontributors to add a dedicated category!
 
-### Contributing documentation through GitHub {#documenting}
+### [Contributing documentation through GitHub](#documenting)
 
 We use [readthedocs](https://readthedocs.org/) to create our
 documentation. Every contribution is welcome and it follows the same
 steps as a code contribution, explained below.
 
-### Contributing code through GitHub {#code}
+### [Contributing code through GitHub](#code)
 
 This section covers 90% of the contributions a project like `physiopy`
 receives - code, documentation and tests. The best way to make this kind
@@ -138,7 +138,7 @@ They are based upon GitHub-flavoured
 helpful page on [getting started with writing and formatting Markdown on
 GitHub](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github).
 
-### Contributing with Pull Requests Reviews {#reviews}
+### [Contributing with Pull Requests Reviews](#reviews)
 
 A big challenge of software development is merging code accurately
 without having to wait too much time. For this reason, Reviewers for PRs

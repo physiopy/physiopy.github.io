@@ -1,4 +1,4 @@
-Physiopy Code of Conduct {#conduct}
+[Physiopy Code of Conduct](#conduct)
 ========================
 
 *Based on the* *Contributor Covenant Code of Conduct*\_.
