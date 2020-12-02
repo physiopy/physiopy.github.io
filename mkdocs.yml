@@ -1,0 +1,46 @@
+site_name: Physiopy
+site_description: Physiopy
+site_author: The Physiopy developers
+site_url: https://physiopy.github.io
+#google_analytics: ['UA-170131052-1', 'www.nipreps.org']
+
+# Copyright
+copyright: Copyright &copy; 2020
+
+nav:
+    - Home: index.md
+    - Libraries:
+      - phys2bids: 'https://phys2bids.readthedocs.io/en/latest/'
+      - phys2denoise: libraries/phys2denoise.md
+      - peakdet: libraries/peakdet.md
+    - Community:
+      - Welcome: community/index.md
+      - Membership: community/members.md
+      - Collecting physiological data: community/best-practices.md
+      - Contributing: community/contributing.md
+      - Contributor Guide: community/contributorfile.md 
+      - Code of Conduct: community/CODE_OF_CONDUCT.md
+    - Developers:
+      - Versions Matrix: devs/versions.md
+      - Releases: devs/releases.md
+theme:
+  name: material
+  features:
+    - tabs
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: "#"
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - markdown_include.include:
+      base_path: docs
+
+plugins:
+  - toc-sidebar
