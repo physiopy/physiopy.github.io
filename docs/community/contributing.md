@@ -21,7 +21,7 @@ Follow these steps to get started:
     run the program with the latest modifications, without requiring to
     re-install it every time.
 
-### NOTE :
+### Note
 The following instructions are provided assuming that python 3 is
 **not** your default version of python. If it is, you might need to use
 `pip` instead of `pip3`, although some OSs do adopt `pip3` anyway. If
