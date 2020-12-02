@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Physiopy" name="description"/>
+  <link href="https://physiopy.github.io/community/contributing/" rel="canonical"/>
+  <meta content="The Physiopy developers" name="author"/>
+  <link href="../../assets/images/favicon.png" rel="shortcut icon"/>
+  <meta content="mkdocs-1.1.2, mkdocs-material-6.1.6" name="generator"/>
+  <title>
+   Contributing - Physiopy
+  </title>
+  <link href="../../assets/stylesheets/main.6910b76c.min.css" rel="stylesheet"/>
+  <link href="../../assets/stylesheets/palette.196e0c26.min.css" rel="stylesheet"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
+  <style>
+   body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}
+  </style>
+ </head>
+ <body data-md-color-accent="none" data-md-color-primary="none" data-md-color-scheme="" dir="ltr">
+  <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+  <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+  <label class="md-overlay" for="__drawer">
+  </label>
+  <div data-md-component="skip">
+   <a class="md-skip" href="#contributing-to-physiopy">
+    Skip to content
+   </a>
+  </div>
+  <div data-md-component="announce">
+  </div>
+  <header class="md-header" data-md-component="header">
+   <nav aria-label="Header" class="md-header-nav md-grid">
+    <a aria-label="Physiopy" class="md-header-nav__button md-logo" href="https://physiopy.github.io" title="Physiopy">
+     <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z">
+      </path>
+     </svg>
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+     <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z">
+      </path>
+     </svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+     <div class="md-header-nav__ellipsis">
+      <span class="md-header-nav__topic md-ellipsis">
+       Physiopy
+      </span>
+      <span class="md-header-nav__topic md-ellipsis">
+       Contributing
+      </span>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <div class="md-container" data-md-component="container">
+   <main class="md-main" data-md-component="main">
+    <div class="md-main__inner md-grid">
+     <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+      <div class="md-sidebar__scrollwrap">
+       <div class="md-sidebar__inner">
+        <nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+         <label class="md-nav__title" for="__drawer">
+          <a aria-label="Physiopy" class="md-nav__button md-logo" href="https://physiopy.github.io" title="Physiopy">
+           <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z">
+            </path>
+           </svg>
+          </a>
+          Physiopy
+         </label>
+         <ul class="md-nav__list" data-md-scrollfix="">
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="../..">
+            Home
+           </a>
+          </li>
+          <li class="md-nav__item md-nav__item--nested">
+           <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" id="nav-2" type="checkbox"/>
+           <label class="md-nav__link" for="nav-2">
+            Libraries
+            <span class="md-nav__icon md-icon">
+            </span>
+           </label>
+           <nav aria-label="Libraries" class="md-nav" data-md-level="1">
+            <label class="md-nav__title" for="nav-2">
+             <span class="md-nav__icon md-icon">
+             </span>
+             Libraries
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix="">
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="https://phys2bids.readthedocs.io/en/latest/">
+               phys2bids
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../../libraries/phys2denoise/">
+               phys2denoise
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../../libraries/peakdet/">
+               peakdet
+              </a>
+             </li>
+            </ul>
+           </nav>
+          </li>
+          <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+           <input checked="" class="md-nav__toggle md-toggle" data-md-toggle="nav-3" id="nav-3" type="checkbox"/>
+           <label class="md-nav__link" for="nav-3">
+            Community
+            <span class="md-nav__icon md-icon">
+            </span>
+           </label>
+           <nav aria-label="Community" class="md-nav" data-md-level="1">
+            <label class="md-nav__title" for="nav-3">
+             <span class="md-nav__icon md-icon">
+             </span>
+             Community
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix="">
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../">
+               Welcome
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../members/">
+               Membership
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../best-practices/">
+               Collecting physiological data
+              </a>
+             </li>
+             <li class="md-nav__item md-nav__item--active">
+              <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+              <label class="md-nav__link md-nav__link--active" for="__toc">
+               Contributing
+               <span class="md-nav__icon md-icon">
+               </span>
+              </label>
+              <a class="md-nav__link md-nav__link--active" href="./">
+               Contributing
+              </a>
+              <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+               <label class="md-nav__title" for="__toc">
+                <span class="md-nav__icon md-icon">
+                </span>
+                Table of contents
+               </label>
+               <ul class="md-nav__list" data-md-scrollfix="">
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="#note">
+                  Note
+                 </a>
+                </li>
+                <li class="md-nav__item">
+                 <a class="md-nav__link" href="#linux-mac-and-windows-developer-installation">
+                  Linux, Mac, and Windows developer installation
+                 </a>
+                 <nav aria-label="Linux, Mac, and Windows developer installation" class="md-nav">
+                  <ul class="md-nav__list">
+                   <li class="md-nav__item">
+                    <a class="md-nav__link" href="#basic-installation">
+                     Basic installation
+                    </a>
+                   </li>
+                   <li class="md-nav__item">
+                    <a class="md-nav__link" href="#full-developer-installation">
+                     Full developer installation
+                    </a>
+                   </li>
+                   <li class="md-nav__item">
+                    <a class="md-nav__link" href="#check-your-installation">
+                     Check your installation!
+                    </a>
+                   </li>
+                  </ul>
+                 </nav>
+                </li>
+               </ul>
+              </nav>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../contributorfile/">
+               Contributor Guide
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../CODE_OF_CONDUCT/">
+               Code of Conduct
+              </a>
+             </li>
+            </ul>
+           </nav>
+          </li>
+          <li class="md-nav__item md-nav__item--nested">
+           <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" id="nav-4" type="checkbox"/>
+           <label class="md-nav__link" for="nav-4">
+            Developers
+            <span class="md-nav__icon md-icon">
+            </span>
+           </label>
+           <nav aria-label="Developers" class="md-nav" data-md-level="1">
+            <label class="md-nav__title" for="nav-4">
+             <span class="md-nav__icon md-icon">
+             </span>
+             Developers
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix="">
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../../devs/versions/">
+               Versions Matrix
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../../devs/releases/">
+               Releases
+              </a>
+             </li>
+            </ul>
+           </nav>
+          </li>
+         </ul>
+        </nav>
+       </div>
+      </div>
+     </div>
+     <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+      <div class="md-sidebar__scrollwrap">
+       <div class="md-sidebar__inner">
+        <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+         <label class="md-nav__title" for="__toc">
+          <span class="md-nav__icon md-icon">
+          </span>
+          Table of contents
+         </label>
+         <ul class="md-nav__list" data-md-scrollfix="">
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="#note">
+            Note
+           </a>
+          </li>
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="#linux-mac-and-windows-developer-installation">
+            Linux, Mac, and Windows developer installation
+           </a>
+           <nav aria-label="Linux, Mac, and Windows developer installation" class="md-nav">
+            <ul class="md-nav__list">
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="#basic-installation">
+               Basic installation
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="#full-developer-installation">
+               Full developer installation
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="#check-your-installation">
+               Check your installation!
+              </a>
+             </li>
+            </ul>
+           </nav>
+          </li>
+         </ul>
+        </nav>
+       </div>
+      </div>
+     </div>
+     <div class="md-content">
+      <article class="md-content__inner md-typeset">
+       <h1 id="contributing-to-physiopy">
+        <a href="#contributing">
+         Contributing to
+         <code>
+          physiopy
+         </code>
+        </a>
+        <a class="headerlink" href="#contributing-to-physiopy" title="Permanent link">
+         #
+        </a>
+       </h1>
+       <p>
+        First of all: thank you!
+       </p>
+       <p>
+        Contributions can be made in different ways, not only code! As we follow
+the
+        <a href="https://github.com/all-contributors/all-contributors">
+         all-contributors
+        </a>
+        specification, any contribution will be recognised accordingly.
+       </p>
+       <p>
+        Follow these steps to get started:
+       </p>
+       <ol>
+        <li>
+         Have a look at the
+         <a href="contributorfile.html">
+          contributor guide
+         </a>
+         page as
+    well as the
+         <a href="conduct.html">
+          code of conduct
+         </a>
+         .
+        </li>
+        <li>
+         Make sure that you have a GitHub account. You can set up a
+         <a href="https://github.com/">
+          free
+    GitHub account
+         </a>
+         ; here are some
+         <a href="https://help.github.com/articles/signing-up-for-a-new-github-account">
+          instructions
+         </a>
+         .
+        </li>
+        <li>
+         If you intend to contribute code and/or use the
+         <code>
+          physiopy
+         </code>
+         packages
+    in any way, check that you have
+         <code>
+          git
+         </code>
+         and
+         <code>
+          pip
+         </code>
+         installed on your
+    system. Then install the package as a developer. This will let you
+    run the program with the latest modifications, without requiring to
+    re-install it every time.
+        </li>
+       </ol>
+       <h3 id="note">
+        Note
+        <a class="headerlink" href="#note" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <p>
+        The following instructions are provided assuming that python 3 is
+        <strong>
+         not
+        </strong>
+        your default version of python. If it is, you might need to use
+        <code>
+         pip
+        </code>
+        instead of
+        <code>
+         pip3
+        </code>
+        , although some OSs do adopt
+        <code>
+         pip3
+        </code>
+        anyway. If
+you want to check, type
+        <code>
+         python --version
+        </code>
+        in a terminal.
+       </p>
+       <h2 id="linux-mac-and-windows-developer-installation">
+        Linux, Mac, and Windows developer installation
+        <a class="headerlink" href="#linux-mac-and-windows-developer-installation" title="Permanent link">
+         #
+        </a>
+       </h2>
+       <p>
+        Be sure to have
+        <code>
+         git
+        </code>
+        and
+        <code>
+         pip
+        </code>
+        installed. Fork the phys2bids repository
+in GitHub, then open a terminal and run the following code to clone the
+forked repository and set it as your `origin`:
+       </p>
+       <div class="codehilite">
+        <pre><span></span><code><span class="err">git clone https://github.com/{username}/{physiopy-package}.git</span>
+<span class="err"># or in case you prefer to use ssh:</span>
+<span class="err">git clone git@github.com:{username}/{physiopy-package}.git</span>
+</code></pre>
+       </div>
+       <p>
+        We also recommend to set up the physiopy/{physiopy-package} repository as
+        <em>
+         upstream
+        </em>
+        . In this way you can always keep your main branch
+up to date with the command
+        <em>
+         git pull upstream master
+        </em>
+        :
+       </p>
+       <div class="codehilite">
+        <pre><span></span><code><span class="err">cd {physiopy-package}</span>
+<span class="err">git remote add upstream https://github.com/physiopy/{physiopy-package}.git</span>
+<span class="err">git pull upstream master</span>
+</code></pre>
+       </div>
+       <h3 id="basic-installation">
+        Basic installation
+        <a class="headerlink" href="#basic-installation" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <p>
+        If you use python frequently, or you are a python developer, chances are
+that all the necessary dependencies are already installed in your
+system.
+       </p>
+       <p>
+        Go to a physiopy package directory (e.g. the
+        <code>
+         phys2bids
+        </code>
+        folder) and execute the command:
+       </p>
+       <div class="codehilite">
+        <pre><span></span><code><span class="err">pip3 install -e .</span>
+</code></pre>
+       </div>
+       <h3 id="full-developer-installation">
+        Full developer installation
+        <a class="headerlink" href="#full-developer-installation" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <p>
+        If it's your first experience as a python developer, or you just want
+to be sure that you have everything you need to collaborate with us, you
+can install
+        <code>
+         phys2bids
+        </code>
+        with all the other packages that we frequently
+use during development in one step!
+       </p>
+       <p>
+        Go to a physiopy package directory (e.g. the
+        <code>
+         phys2bids
+        </code>
+        folder) and execute the command:
+       </p>
+       <div class="codehilite">
+        <pre><span></span><code><span class="n">pip3</span><span class="w"> </span><span class="n">install</span><span class="w"> </span><span class="o">-</span><span class="n">e</span><span class="w"> </span><span class="p">.</span><span class="o">[</span><span class="n">all</span><span class="o">]</span><span class="w"></span>
+</code></pre>
+       </div>
+       <p>
+        This will install:
+       </p>
+       <blockquote>
+        <ul>
+         <li>
+          <code>
+           phys2bids
+          </code>
+          as an editable package, which means that you can
+    modify the program and run it without having to reinstall it every
+    time!
+         </li>
+         <li>
+          All
+          <code>
+           phys2bids
+          </code>
+          dependencies.
+         </li>
+         <li>
+          All
+          <strong>
+           interface
+          </strong>
+          modules, that deal with the interfaces for all
+    the file formats.
+         </li>
+         <li>
+          All
+          <strong>
+           style
+          </strong>
+          modules, such as
+          <code>
+           flake8
+          </code>
+          , to help you linter the
+    code!
+         </li>
+         <li>
+          All
+          <strong>
+           documentation
+          </strong>
+          modules, like
+          <code>
+           sphinx
+          </code>
+          , so that you can
+    build the docs locally before submitting them.
+         </li>
+         <li>
+          All
+          <strong>
+           test
+          </strong>
+          modules, like
+          <code>
+           pytest
+          </code>
+          , in order for you to test your
+    code locally before committing it!
+         </li>
+        </ul>
+       </blockquote>
+       <h3 id="check-your-installation">
+        Check your installation!
+        <a class="headerlink" href="#check-your-installation" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <p>
+        Type the commands:
+       </p>
+       <div class="codehilite">
+        <pre><span></span><code><span class="err">cd phys2bids/tests</span>
+<span class="err">pytest</span>
+</code></pre>
+       </div>
+       <p>
+        This will execute the tests locally and check that your phys2bids
+installation works properly.
+       </p>
+       <div class="codehilite">
+        <pre><span></span><code><span class="n">pytest</span>
+<span class="o">===================================</span> <span class="n">test</span> <span class="k">session</span> <span class="n">starts</span> <span class="o">===================================</span>
+<span class="n">platform</span> <span class="n">win32</span> <span class="c1">-- Python 3.8.6, pytest-6.1.1, py-1.9.0, pluggy-0.13.1</span>
+<span class="n">rootdir</span><span class="p">:</span> <span class="k">C</span><span class="p">:</span><span class="err">\</span><span class="n">Users</span><span class="err">\</span><span class="n">sento</span><span class="err">\</span><span class="n">phys2bids</span><span class="p">,</span> <span class="n">configfile</span><span class="p">:</span> <span class="n">setup</span><span class="p">.</span><span class="n">cfg</span>
+<span class="n">plugins</span><span class="p">:</span> <span class="n">cov</span><span class="o">-</span><span class="mi">2</span><span class="p">.</span><span class="mi">10</span><span class="p">.</span><span class="mi">1</span>
+<span class="n">collected</span> <span class="mi">61</span> <span class="n">items</span>
+
+<span class="n">test_acq</span><span class="p">.</span><span class="n">py</span> <span class="p">.</span>                                                                        <span class="p">[</span>  <span class="mi">1</span><span class="o">%</span><span class="p">]</span>
+<span class="n">test_bids</span><span class="p">.</span><span class="n">py</span> <span class="p">................</span>                                                        <span class="p">[</span> <span class="mi">27</span><span class="o">%</span><span class="p">]</span>
+<span class="n">test_integration</span><span class="p">.</span><span class="n">py</span> <span class="p">...</span>                                                              <span class="p">[</span> <span class="mi">32</span><span class="o">%</span><span class="p">]</span>
+<span class="n">test_phys2bids</span><span class="p">.</span><span class="n">py</span> <span class="p">...</span>                                                                <span class="p">[</span> <span class="mi">37</span><span class="o">%</span><span class="p">]</span>
+<span class="n">test_physio_obj</span><span class="p">.</span><span class="n">py</span> <span class="p">.......</span>                                                           <span class="p">[</span> <span class="mi">49</span><span class="o">%</span><span class="p">]</span>
+<span class="n">test_txt</span><span class="p">.</span><span class="n">py</span> <span class="p">..................</span>                                                       <span class="p">[</span> <span class="mi">78</span><span class="o">%</span><span class="p">]</span>
+<span class="n">test_utils</span><span class="p">.</span><span class="n">py</span> <span class="p">...........</span>                                                            <span class="p">[</span> <span class="mi">96</span><span class="o">%</span><span class="p">]</span>
+<span class="n">test_viz</span><span class="p">.</span><span class="n">py</span> <span class="p">.</span><span class="n">x</span>                                                                       <span class="p">[</span><span class="mi">100</span><span class="o">%</span><span class="p">]</span>
+
+<span class="o">=================================</span> <span class="n">short</span> <span class="n">test</span> <span class="n">summary</span> <span class="n">info</span> <span class="o">=================================</span>
+<span class="n">XFAIL</span> <span class="n">test_viz</span><span class="p">.</span><span class="n">py</span><span class="p">::</span><span class="n">test_plot_trigger</span>
+<span class="o">========================</span> <span class="mi">60</span> <span class="n">passed</span><span class="p">,</span> <span class="mi">1</span> <span class="n">xfailed</span> <span class="k">in</span> <span class="mi">142</span><span class="p">.</span><span class="mi">58</span><span class="n">s</span> <span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">02</span><span class="p">:</span><span class="mi">22</span><span class="p">)</span> <span class="o">========================</span>
+</code></pre>
+       </div>
+       <p>
+        Do
+        <strong>
+         not
+        </strong>
+        worry if there is a xfail error in the log. This happens when
+we know that a test will fail for known reasons, and we are probably
+working to fix it (see
+        <a href="https://docs.pytest.org/en/latest/skipping.html#xfail-mark-test-functions-as-expected-to-fail">
+         here
+        </a>
+        .
+However, if you do encounter any other error, check that you have all
+the extra dependencies installed and their version meets
+        <code>
+         phys2bids
+        </code>
+        requirements. Contact us on
+        <a href="https://gitter.im/physiopy/community">
+         gitter
+        </a>
+        if you need help!
+       </p>
+      </article>
+     </div>
+    </div>
+   </main>
+   <footer class="md-footer">
+    <div class="md-footer-nav">
+     <nav aria-label="Footer" class="md-footer-nav__inner md-grid">
+      <a class="md-footer-nav__link md-footer-nav__link--prev" href="../best-practices/" rel="prev">
+       <div class="md-footer-nav__button md-icon">
+        <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z">
+         </path>
+        </svg>
+       </div>
+       <div class="md-footer-nav__title">
+        <div class="md-ellipsis">
+         <span class="md-footer-nav__direction">
+          Previous
+         </span>
+         Collecting physiological data
+        </div>
+       </div>
+      </a>
+      <a class="md-footer-nav__link md-footer-nav__link--next" href="../contributorfile/" rel="next">
+       <div class="md-footer-nav__title">
+        <div class="md-ellipsis">
+         <span class="md-footer-nav__direction">
+          Next
+         </span>
+         Contributor Guide
+        </div>
+       </div>
+       <div class="md-footer-nav__button md-icon">
+        <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z">
+         </path>
+        </svg>
+       </div>
+      </a>
+     </nav>
+    </div>
+    <div class="md-footer-meta md-typeset">
+     <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+       <div class="md-footer-copyright__highlight">
+        Copyright © 2020
+       </div>
+       Made with
+       <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+        Material for MkDocs
+       </a>
+      </div>
+     </div>
+    </div>
+   </footer>
+  </div>
+  <script src="../../assets/javascripts/vendor.fd16492e.min.js">
+  </script>
+  <script src="../../assets/javascripts/bundle.7836ba4d.min.js">
+  </script>
+  <script id="__lang" type="application/json">
+   {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}
+  </script>
+  <script>
+   app = initialize({
+          base: "../..",
+          features: ['tabs'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+  </script>
+ </body>
+</html>

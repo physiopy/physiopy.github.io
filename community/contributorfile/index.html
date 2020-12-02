@@ -1,0 +1,1681 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Physiopy" name="description"/>
+  <link href="https://physiopy.github.io/community/contributorfile/" rel="canonical"/>
+  <meta content="The Physiopy developers" name="author"/>
+  <link href="../../assets/images/favicon.png" rel="shortcut icon"/>
+  <meta content="mkdocs-1.1.2, mkdocs-material-6.1.6" name="generator"/>
+  <title>
+   Contributor Guide - Physiopy
+  </title>
+  <link href="../../assets/stylesheets/main.6910b76c.min.css" rel="stylesheet"/>
+  <link href="../../assets/stylesheets/palette.196e0c26.min.css" rel="stylesheet"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&amp;display=fallback" rel="stylesheet"/>
+  <style>
+   body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}
+  </style>
+ </head>
+ <body data-md-color-accent="none" data-md-color-primary="none" data-md-color-scheme="" dir="ltr">
+  <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+  <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+  <label class="md-overlay" for="__drawer">
+  </label>
+  <div data-md-component="skip">
+   <a class="md-skip" href="#how-to-contribute-to-physiopy">
+    Skip to content
+   </a>
+  </div>
+  <div data-md-component="announce">
+  </div>
+  <header class="md-header" data-md-component="header">
+   <nav aria-label="Header" class="md-header-nav md-grid">
+    <a aria-label="Physiopy" class="md-header-nav__button md-logo" href="https://physiopy.github.io" title="Physiopy">
+     <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z">
+      </path>
+     </svg>
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+     <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z">
+      </path>
+     </svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+     <div class="md-header-nav__ellipsis">
+      <span class="md-header-nav__topic md-ellipsis">
+       Physiopy
+      </span>
+      <span class="md-header-nav__topic md-ellipsis">
+       Contributor Guide
+      </span>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <div class="md-container" data-md-component="container">
+   <main class="md-main" data-md-component="main">
+    <div class="md-main__inner md-grid">
+     <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+      <div class="md-sidebar__scrollwrap">
+       <div class="md-sidebar__inner">
+        <nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+         <label class="md-nav__title" for="__drawer">
+          <a aria-label="Physiopy" class="md-nav__button md-logo" href="https://physiopy.github.io" title="Physiopy">
+           <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z">
+            </path>
+           </svg>
+          </a>
+          Physiopy
+         </label>
+         <ul class="md-nav__list" data-md-scrollfix="">
+          <li class="md-nav__item">
+           <a class="md-nav__link" href="../..">
+            Home
+           </a>
+          </li>
+          <li class="md-nav__item md-nav__item--nested">
+           <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" id="nav-2" type="checkbox"/>
+           <label class="md-nav__link" for="nav-2">
+            Libraries
+            <span class="md-nav__icon md-icon">
+            </span>
+           </label>
+           <nav aria-label="Libraries" class="md-nav" data-md-level="1">
+            <label class="md-nav__title" for="nav-2">
+             <span class="md-nav__icon md-icon">
+             </span>
+             Libraries
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix="">
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="https://phys2bids.readthedocs.io/en/latest/">
+               phys2bids
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../../libraries/phys2denoise/">
+               phys2denoise
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../../libraries/peakdet/">
+               peakdet
+              </a>
+             </li>
+            </ul>
+           </nav>
+          </li>
+          <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+           <input checked="" class="md-nav__toggle md-toggle" data-md-toggle="nav-3" id="nav-3" type="checkbox"/>
+           <label class="md-nav__link" for="nav-3">
+            Community
+            <span class="md-nav__icon md-icon">
+            </span>
+           </label>
+           <nav aria-label="Community" class="md-nav" data-md-level="1">
+            <label class="md-nav__title" for="nav-3">
+             <span class="md-nav__icon md-icon">
+             </span>
+             Community
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix="">
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../">
+               Welcome
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../members/">
+               Membership
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../best-practices/">
+               Collecting physiological data
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../contributing/">
+               Contributing
+              </a>
+             </li>
+             <li class="md-nav__item md-nav__item--active">
+              <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+              <a class="md-nav__link md-nav__link--active" href="./">
+               Contributor Guide
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../CODE_OF_CONDUCT/">
+               Code of Conduct
+              </a>
+             </li>
+            </ul>
+           </nav>
+          </li>
+          <li class="md-nav__item md-nav__item--nested">
+           <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" id="nav-4" type="checkbox"/>
+           <label class="md-nav__link" for="nav-4">
+            Developers
+            <span class="md-nav__icon md-icon">
+            </span>
+           </label>
+           <nav aria-label="Developers" class="md-nav" data-md-level="1">
+            <label class="md-nav__title" for="nav-4">
+             <span class="md-nav__icon md-icon">
+             </span>
+             Developers
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix="">
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../../devs/versions/">
+               Versions Matrix
+              </a>
+             </li>
+             <li class="md-nav__item">
+              <a class="md-nav__link" href="../../devs/releases/">
+               Releases
+              </a>
+             </li>
+            </ul>
+           </nav>
+          </li>
+         </ul>
+        </nav>
+       </div>
+      </div>
+     </div>
+     <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+      <div class="md-sidebar__scrollwrap">
+       <div class="md-sidebar__inner">
+        <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+        </nav>
+       </div>
+      </div>
+     </div>
+     <div class="md-content">
+      <article class="md-content__inner md-typeset">
+       <h1 id="how-to-contribute-to-physiopy">
+        <a href="#contributorfile">
+         How to contribute to
+         <code>
+          physiopy
+         </code>
+        </a>
+        <a class="headerlink" href="#how-to-contribute-to-physiopy" title="Permanent link">
+         #
+        </a>
+       </h1>
+       <p>
+        Welcome to the
+        <code>
+         physiopy
+        </code>
+        organisation! It's great news that you're
+thinking about contributing!
+       </p>
+       <p>
+        Working with many people from many different places is great, but
+sometimes this means that code can become messy due to the many
+different ways a contribution can be made. For this reason, we have set
+up some guidelines for contributions - to help you get involved ASAP! If
+you lack knowledge in python development / github use / physiological
+data handling, don't be scared! Try to jump in anyway. Most of the
+original contributors learned these things exactly this way - jumping in
+and hoping to fall in the right way without breaking too many bones. Do
+you want to jump in but don't exactly know where/how? You can drop a few
+lines in
+        <a href="https://gitter.im/phys2bids/community">
+         gitter
+        </a>
+        , so we can help
+you find something that suits you! Already know what you\'re looking for
+in this guide? Jump to the following sections:
+       </p>
+       <ul>
+        <li>
+         <a href="#aims">
+          Aims of physiopy
+         </a>
+        </li>
+        <li>
+         <a href="#joinconvo">
+          Join the conversation
+         </a>
+        </li>
+        <li>
+         <a href="#contributiontypes">
+          Contributions
+         </a>
+         <ul>
+          <li>
+           <a href="#smalldocs">
+            Contributing with small documentation changes
+           </a>
+          </li>
+          <li>
+           <a href="#usertests">
+            Contributing with User testing
+           </a>
+          </li>
+          <li>
+           <a href="#testfile">
+            Contributing with test files
+           </a>
+          </li>
+          <li>
+           <a href="#documenting">
+            Contributing documentation through GitHub
+           </a>
+          </li>
+          <li>
+           <a href="#code">
+            Contributing code through GitHub
+           </a>
+          </li>
+          <li>
+           <a href="#reviews">
+            Contributing with Pull Requests Review
+           </a>
+          </li>
+         </ul>
+        </li>
+        <li>
+         <a href="#issuesmilestones">
+          Issues and Milestones
+         </a>
+        </li>
+        <li>
+         <a href="#labeltypes">
+          Labels
+         </a>
+         <ul>
+          <li>
+           <a href="#issueprlabels">
+            Issues &amp; PRs labels
+           </a>
+          </li>
+          <li>
+           <a href="#issuelabel">
+            Issues labels
+           </a>
+          </li>
+          <li>
+           <a href="#prlabel">
+            PRs labels
+           </a>
+          </li>
+          <li>
+           <a href="#g1i">
+            Good First Issues
+           </a>
+          </li>
+         </ul>
+        </li>
+        <li>
+         <a href="#workflow">
+          Contribution workflow
+         </a>
+        </li>
+        <li>
+         <a href="#pr">
+          Pull Requests
+         </a>
+        </li>
+        <li>
+         <a href="#reviewing">
+          Reviewing PRs
+         </a>
+        </li>
+        <li>
+         <a href="#styling">
+          Style Guide
+         </a>
+        </li>
+        <li>
+         <a href="#testing">
+          Automatic Testing
+         </a>
+        </li>
+        <li>
+         <a href="#recognising">
+          Recognizing contributors
+         </a>
+        </li>
+       </ul>
+       <h1 id="aims-of-physiopy">
+        <a href="#aims">
+         Aims of physiopy
+        </a>
+        <a class="headerlink" href="#aims-of-physiopy" title="Permanent link">
+         #
+        </a>
+       </h1>
+       <p>
+        <code>
+         physiopy
+        </code>
+        is a
+        <strong>
+         very
+        </strong>
+        young project developed by a bunch of
+researchers from the two different sides of the Atlantic Ocean (for
+now). Our main goal is to help collect, analyse and share physiological
+data, interfacing with (MRI) neuroimaging. We're trying to do so by:
+       </p>
+       <ol>
+        <li>
+         Writing packages to make a user-friendly pipeline to deal with
+    physiological data.
+        </li>
+        <li>
+         Writing packages that take into account the use of this
+    physiological data in combination with neuroimaging (MRI) analysis.
+        </li>
+        <li>
+         Providing documentation containing tips and strategies on how to
+    collect such data and use our packages.
+        </li>
+        <li>
+         Help set a standard for these data, albeit without forcing users to
+    use it.
+        </li>
+        <li>
+         Be an excuse for educational purposes on topics like Git/GitHub,
+    Python3, physiology and related tools/topics.
+        </li>
+       </ol>
+       <h2 id="joining-the-conversation">
+        <a href="#joinconvo">
+         Joining the conversation
+        </a>
+        <a class="headerlink" href="#joining-the-conversation" title="Permanent link">
+         #
+        </a>
+       </h2>
+       <p>
+        We're trying to keep all conversation related to project development in
+GitHub
+        <a href="https://github.com/physiopy/phys2bids/issues">
+         issues
+        </a>
+        . We
+maintain a
+        <a href="https://gitter.im/physiopy/community">
+         gitter chat room
+        </a>
+        for
+more informal conversations and general project updates. We also have a
+dev call once a month - specifically the second Thursday of the month!
+If you want to participate, drop a line in gitter! When interacting in
+the common channels, please adhere to our
+        <a href="conduct.html">
+         code of
+conduct
+        </a>
+        .
+       </p>
+       <h2 id="contributions">
+        <a href="#contributiontypes">
+         Contributions
+        </a>
+        <a class="headerlink" href="#contributions" title="Permanent link">
+         #
+        </a>
+       </h2>
+       <h3 id="contributing-with-small-documentation-changes">
+        <a href="#smalldocs">
+         Contributing with small documentation changes
+        </a>
+        <a class="headerlink" href="#contributing-with-small-documentation-changes" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <p>
+        If you are new to GitHub and just have a small documentation change
+recommendation (such as: typos detection, small improvements in the
+content, ...), please open an issue in the relative project, and label
+it with the "Documentation" label. Chances are those types of changes
+are easily doable with GitHub\'s online editor, which means you can do
+them, or ask for help from the developers!
+       </p>
+       <h3 id="contributing-with-user-testing">
+        <a href="#usertests">
+         Contributing with User testing
+        </a>
+        <a class="headerlink" href="#contributing-with-user-testing" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <p>
+        Another, non-coding friendly way to contribute to
+        <code>
+         physiopy
+        </code>
+        is by
+testing the packages. There are different kinds of tests, but to
+simplify things you can think mainly about automatic tests and user
+tests. To know more about
+        <strong>
+         Automatic tests
+        </strong>
+        , you can read the
+        <a href="#testing">
+         testing
+section
+        </a>
+        .
+        <strong>
+         User testing
+        </strong>
+        are warm, human, emotional and
+opinionated tests that not only check that the code is doing what it
+needs to do, but also whether there's a better way to do it - namely
+better reports, clearer screen outputs, warnings and exceptions,
+unexpected bugs that have to be corrected. If you want to perform one,
+open an issue on GitHub or drop a comment in Gitter, refer to this
+        <a href="https://docs.google.com/document/d/1b6wc7JVDs3vi-2IqGg_Ed_oWKbZ6siboAJHf55nodKo/edit?usp=sharing">
+         blueprint
+        </a>
+        and don't be afraid to ask questions!
+       </p>
+       <h3 id="contributing-with-test-files">
+        <a href="#testfile">
+         Contributing with test files
+        </a>
+        <a class="headerlink" href="#contributing-with-test-files" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <p>
+        At
+        <code>
+         physiopy
+        </code>
+        we always try to imagine and support every possible
+setting out there. However, our imagination has a limit - but if you
+think our packages should process a specific format/setting that you
+have, we're more than glad to do so! To make it happen, we need an
+example of the file we want to process, so you will have to share it
+with us (and the rest of the world)! The contribution can be a full file
+of data that you already acquired, a part of that file (pay attention to
+what is the minimum you need to share!), or mock data. The file
+contribution should come with a json file of the same name that contains
+the necessary information to run
+        <code>
+         phys2bids
+        </code>
+        on that file contribution.
+There is a
+        <a href="https://mfr.de-1.osf.io/render?url=https://osf.io/jrnxv/?direct%26mode=render%26action=download%26mode=render">
+         json blueprint in
+OSF
+        </a>
+        ,
+you can download it and adapt it. Note that the frequency list
+        <strong>
+         has to
+be expressed in Hz
+        </strong>
+        as an integer or float. To contribute with a test
+file, open an Issue in GitHub and label it with
+        <em>
+         Test
+        </em>
+        . We'll help you
+add the file in our
+        <a href="https://osf.io/3txqr/">
+         OSF
+        </a>
+        space. We're extremely
+grateful for this type of contribution - so grateful that we asked
+allcontributors to add a dedicated category!
+       </p>
+       <h3 id="contributing-documentation-through-github">
+        <a href="#documenting">
+         Contributing documentation through GitHub
+        </a>
+        <a class="headerlink" href="#contributing-documentation-through-github" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <p>
+        We use
+        <a href="https://readthedocs.org/">
+         readthedocs
+        </a>
+        to create our
+documentation. Every contribution is welcome and it follows the same
+steps as a code contribution, explained below.
+       </p>
+       <h3 id="contributing-code-through-github">
+        <a href="#code">
+         Contributing code through GitHub
+        </a>
+        <a class="headerlink" href="#contributing-code-through-github" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <p>
+        This section covers 90% of the contributions a project like
+        <code>
+         physiopy
+        </code>
+        receives - code, documentation and tests. The best way to make this kind
+of contribution, in a nutshell, is to: 1. Open an issue with the
+intended modifications. 2. Label it, discuss it, (self-)assign it. 3.
+Open a Pull Request (PR) to resolve the issue and label it. 4. Wait for
+a review, discuss it or comply, repeat until ready. Issues and PR chats
+are great to maintain track of the conversation on the contribution.
+They are based upon GitHub-flavoured
+        <a href="https://daringfireball.net/projects/markdown">
+         Markdown
+        </a>
+        . GitHub has a
+helpful page on
+        <a href="https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github">
+         getting started with writing and formatting Markdown on
+GitHub
+        </a>
+        .
+       </p>
+       <h3 id="contributing-with-pull-requests-reviews">
+        <a href="#reviews">
+         Contributing with Pull Requests Reviews
+        </a>
+        <a class="headerlink" href="#contributing-with-pull-requests-reviews" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <p>
+        A big challenge of software development is merging code accurately
+without having to wait too much time. For this reason, Reviewers for PRs
+are more than welcome! It is a task that requires some experience, but
+it's very necessary! Read the
+        <a href="#reviewing">
+         related section below
+        </a>
+        to
+start!
+       </p>
+       <h2 id="issues-and-milestones">
+        <a href="#issuesmilestones">
+         Issues and Milestones
+        </a>
+        <a class="headerlink" href="#issues-and-milestones" title="Permanent link">
+         #
+        </a>
+       </h2>
+       <p>
+        At
+        <code>
+         physiopy
+        </code>
+        , we use Issues and Milestones to keep track of and
+organise our workflow.
+        <strong>
+         Issues
+        </strong>
+        describe pieces of work that need to
+be completed to move the project forwards. We try to keep them as simple
+and clear as possible: an issue should describe a unitary, possibly
+small piece of work (unless it's about refactoring). Don't be scared of
+opening many issues at once, if it makes sense! Just check that what
+you're proposing is not listed in a previous issue (open or closed) yet
+(we don't like doubles). Issues get labelled. That helps the
+contributors to know what they're about. Check the label list to know
+what types are there, and use them accordingly! Issues can also be
+        <strong>
+         assigned
+        </strong>
+        . If you want to work on an assigned issue, ask permission
+first! -
+        <strong>
+         Milestones
+        </strong>
+        set the higher level workflow. They sketch
+deadlines and important releases. Issues are assigned to these
+milestones by the maintainers. If you feel that an issue should be
+assigned to a specific milestone but the maintainers have not done so,
+discuss it in the issue chat or in Gitter! We might have just missed it,
+or we might not (yet) see how it aligns with the overall project
+structure/milestone.
+       </p>
+       <h2 id="labels">
+        <a href="#labeltypes">
+         Labels
+        </a>
+        <a class="headerlink" href="#labels" title="Permanent link">
+         #
+        </a>
+       </h2>
+       <p>
+        The current list of labels are
+        <a href="https://github.com/physiopy/phys2bids/labels">
+         here
+        </a>
+        . They can be used
+for
+        <strong>
+         Issues
+        </strong>
+        ,
+        <strong>
+         PRs
+        </strong>
+        , or both. We use
+        <a href="https://github.com/intuit/auto">
+         auto
+        </a>
+        to automate our semantic
+versioning and Pypi upload, so
+        <strong>
+         it\'s extremely important to use the
+right PR labels
+        </strong>
+        !
+       </p>
+       <h3 id="issue-pr-labels">
+        <a href="#issueprlabels">
+         Issue &amp; PR labels
+        </a>
+        <a class="headerlink" href="#issue-pr-labels" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <ul>
+        <li>
+         Documentation: Improvements or additions to documentation. This
+    category includes (but is not limited to) docs pages, docstrings,
+    and code comments.
+        </li>
+        <li>
+         Duplicate: Whatever this is, it exists already! Maybe it's a closed
+    Issue/PR, that should be reopened.
+        </li>
+        <li>
+         Enhancement: New features added or requested. This normally goes
+    with a
+         <code>
+          minormod
+         </code>
+         label for PRs.
+        </li>
+        <li>
+         Outreach: As part of the scientific community, we care about
+    outreach. Check the relevant section about it, but know that this
+    Issue/PR contains information or tasks about abstracts, talks,
+    demonstrations, papers.
+        </li>
+        <li>
+         Paused: Issue or PR should not be worked on until the resolution of
+    other issues or PRs.
+        </li>
+        <li>
+         Testing: This is for testing features, writing tests or producing
+    testing code. Both user testing and CI testing!
+        </li>
+        <li>
+         Urgent: If you don\'t know where to start, start here! This is
+    probably related to a milestone due soon!
+        </li>
+       </ul>
+       <h3 id="issue-only-labels">
+        <a href="#issuelabel">
+         Issue-only labels
+        </a>
+        <a class="headerlink" href="#issue-only-labels" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <ul>
+        <li>
+         Bug: Something isn't working. It either breaks the code or has an
+    unexpected outcome.
+        </li>
+        <li>
+         Community: This issue contains information about the
+         <code>
+          physiopy
+         </code>
+         community (e.g. the next developer call)
+        </li>
+        <li>
+         Discussion: Discussion of a concept or implementation. These Issues
+    are prone to be open ad infinitum. Jump in the conversation if you
+    want!
+        </li>
+        <li>
+         Good first issue: Good for newcomers. These issues calls for a
+         <strong>
+          fairly
+         </strong>
+         easy enhancement, or for a change that helps/requires
+    getting to know the code better. They have educational value, and
+    for this reason, unless urgent, experts in the topic should refrain
+    from closing them - but help newcomers closing them.
+        </li>
+        <li>
+         Hacktoberfest: Dedicated to the hacktoberfest event, so that people
+    can help and feel good about it (and show it with a T-shirt!).
+         <strong>
+          Such commits will not be recognised in the all-contributor table,
+    unless otherwise specified
+         </strong>
+         .
+        </li>
+        <li>
+         Help wanted: Extra attention is needed here! It's a good place to
+    have a look!
+        </li>
+        <li>
+         Refactoring: Improve nonfunctional attributes. Which means rewriting
+    the code or the documentation to improve performance or just because
+    there's a better way to express those lines. It might create a
+         <code>
+          majormod
+         </code>
+         PR.
+        </li>
+        <li>
+         Question: Further information is requested, from users to
+    developers. Try to respond to this!
+        </li>
+        <li>
+         Wontfix: This will not be worked on, until further notice.
+        </li>
+       </ul>
+       <h3 id="pr-only-labels">
+        <a href="#prlabel">
+         PR-only labels
+        </a>
+        <a class="headerlink" href="#pr-only-labels" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <h4 id="labels-for-semantic-release-and-changelogs">
+        Labels for semantic release and changelogs
+        <a class="headerlink" href="#labels-for-semantic-release-and-changelogs" title="Permanent link">
+         #
+        </a>
+       </h4>
+       <ul>
+        <li>
+         Majormod: These PRs call for a new major release (+1.0.0). This
+    means that the PR is breaking backward compatibility.
+        </li>
+        <li>
+         Minormod: These PRs call for a new minor release (0.+1.0). This
+    means that the PR is
+         <strong>
+          not
+         </strong>
+         breaking backward compatibility.
+        </li>
+        <li>
+         BugFIX: These PRs close an issue labelled
+         <code>
+          bug
+         </code>
+         . They also increase
+    the semantic versioning for fixes (+0.0.1).
+        </li>
+        <li>
+         Internal: This PR contains changes to the internal API. It won\'t
+    trigger a release, but it will be reported in the changelog.
+        </li>
+        <li>
+         Documentation: See above. This PR won\'t trigger a release, but it
+    will be reported in the changelog.
+        </li>
+        <li>
+         Testing: See above. This PR won\'t trigger a release, but it will be
+    reported in the changelog.
+        </li>
+        <li>
+         Skip release: This PR will
+         <strong>
+          not
+         </strong>
+         trigger a release.
+        </li>
+        <li>
+         Release: This PR will force the trigger of a release.
+        </li>
+       </ul>
+       <h4 id="other-labels">
+        Other labels
+        <a class="headerlink" href="#other-labels" title="Permanent link">
+         #
+        </a>
+       </h4>
+       <ul>
+        <li>
+         Invalid: These PRs don't seem right. They actually seem so not
+    right that they won't be further processed. This label invalidates a
+    Hacktoberfest contribution. If you think this is wrong, start a
+    discussion in the relevant issue (or open one if missing). Reviewers
+    are asked to give an explanation for the use of this label.
+        </li>
+       </ul>
+       <h3 id="good-first-issues">
+        <a href="#g1i">
+         Good First Issues
+        </a>
+        <a class="headerlink" href="#good-first-issues" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <p>
+        Good First Issues are issues that are either very simple, or that help
+the contributor get to know the programs or the languages better. We use
+it to help contributors with less experience to learn and familiarise
+with Git, GitHub, Python3, and physiology. We invite more expert
+contributors to avoid those issues, leave them to beginners and possibly
+help them out in the resolution of the issue. However, if the issue is
+left unassigned or unattended for long, and it's considered important or
+urgent, anyone can tackle it.
+       </p>
+       <h2 id="contribution-workflow">
+        <a href="#workflow">
+         Contribution workflow
+        </a>
+        <a class="headerlink" href="#contribution-workflow" title="Permanent link">
+         #
+        </a>
+       </h2>
+       <p>
+        There are many descriptions of a good contribution workflow out there.
+For instance, we suggest to have a look at
+        <a href="https://github.com/ME-ICA/tedana/blob/master/CONTRIBUTING.md#making-a-change">
+         tedana's workflow
+        </a>
+        .
+At
+        <code>
+         physiopy
+        </code>
+        , we follow a very similar workflow. The only three
+differences are:
+       </p>
+       <ul>
+        <li>
+         If you see an open issue that you would like to work on, check if it
+    is assigned. If it is, ask the assignee if they need help or want to
+    be substituted before starting to work on it.
+        </li>
+        <li>
+         We ask you to test the code locally before merging it, and then, if
+    possible, write some automatic tests for the code to be run in our
+    Continuous Integration! Check the testing section below to know
+    more.
+        </li>
+        <li>
+         We suggest opening a draft PR as soon as you can - so it's easier
+    for us to help you!
+        </li>
+       </ul>
+       <p>
+        See our
+        <a href="CONTRIBUTING.md#contributing">
+         complete documentation
+        </a>
+        on the matter
+       </p>
+       <h2 id="pull-requests">
+        <a href="#pr">
+         Pull Requests
+        </a>
+        <a class="headerlink" href="#pull-requests" title="Permanent link">
+         #
+        </a>
+       </h2>
+       <p>
+        To improve understanding pull requests \"at a glance\" and use the power
+of
+        <code>
+         auto
+        </code>
+        , we use the labels listed above. Multiple labels can be
+assigned to a PR - in fact, all those that you think are relevant. We
+strongly advise to keep the changes you\'re introducing with your PR
+limited to your original goal. Adding to the scope of your PR little
+style corrections or code refactoring here and there in the code that
+you\'re already modifying is a great help, but when they become too much
+(and they are not relevant to your PR) they risk complicating the nature
+of the PR and the reviewing process. It is much better to open another
+PR with the objective of doing such corrections! Moreover, if you\'re
+tempted to assign more than one label that would trigger a release (e.g.
+bug and minormod or bug and majormod, etc.), you might want to split your PR
+instead. When opening a pull request, assign it at least one label.
+       </p>
+       <p>
+        We encourage you to open a PR as soon as possible - even before you
+finish working on them. This is useful especially to you - so that you
+can receive comments and suggestions early on, rather than having to
+process a lot of comments in the final review step! However, if it's an
+incomplete PR, please open a
+        <strong>
+         Draft PR
+        </strong>
+        . That helps us process PRs by
+knowing which one to have a look first - and how picky to be when doing
+so.
+       </p>
+       <p>
+        Reviewing PRs is a time consuming task and it can be stressful for both
+the reviewer and the author. Avoiding wasting time and the need of
+little fixes - such as fixing grammar mistakes and typos, styling code,
+or adopting conventions - is a good start for a successful (and quick)
+review. Before graduating a Draft PR to a PR ready for review, please
+check that:
+       </p>
+       <ul>
+        <li>
+         You did all you wanted to include in your PR. If at a later stage
+    you realize something is missing and it's not a minor thing, you
+    will need to open a new PR.
+        </li>
+        <li>
+         If your contribution contains code or tests, you ran and passed all
+    of the tests locally with
+         <a href="#testing">
+          pytest
+         </a>
+         .
+        </li>
+        <li>
+         If you're writing documentation, you built it locally with
+    sphinx and the format is what you intended.
+        </li>
+        <li>
+         Your code is harmonious with the rest of the code - no repetitions
+    of any sort!
+        </li>
+       </ul>
+       <p>
+        Your code respects the
+        <a href="#styling">
+         adopted Style
+        </a>
+        , especially if:
+       </p>
+       <ul>
+        <li>
+         Your code is lintered adequately and respects the
+         <a href="https://www.python.org/dev/peps/pep-0008/">
+          PEP8
+         </a>
+         convention.
+        </li>
+        <li>
+         Your docstrings follow the
+         <a href="https://numpydoc.readthedocs.io/en/latest/format.html">
+          numpydoc
+         </a>
+         convention.
+        </li>
+        <li>
+         <p>
+          There are no typos or grammatical mistakes and the text is fluid.
+         </p>
+        </li>
+        <li>
+         <p>
+          The code is sufficiently commented and the comments are clear.
+         </p>
+        </li>
+        <li>
+         <p>
+          Your PR title is clear enough to be meaningful when appended to the version changelog.
+         </p>
+        </li>
+        <li>
+         <p>
+          You have the correct labels.
+         </p>
+        </li>
+       </ul>
+       <h4 id="to-be-merged-prs-have-to">
+        To be merged, PRs have to:
+        <a class="headerlink" href="#to-be-merged-prs-have-to" title="Permanent link">
+         #
+        </a>
+       </h4>
+       <ol>
+        <li>
+         Pass all the CircleCI tests, and possibly all the codecov checks.
+        </li>
+        <li>
+         <p>
+          Have the necessary amount of approving reviews, even if you're a
+    long time contributor.
+         </p>
+         <p>
+          Note : You can ask one (or more) contributor to do
+that review, if you think they align more with the content of your
+PR. You need
+          <strong>
+           one
+          </strong>
+          review for documentation, tests, and small
+changes, and
+          <strong>
+           two
+          </strong>
+          reviews for bugs, refactoring and enhancements.
+3.  Have at least a release-related label (or a
+          <code>
+           Skip
+release
+          </code>
+          label).
+4.  Have a short title that clearly explains in one sentence the aim of
+the PR.
+5.  Contain at least a unit test for your contribution, if the PR
+contains code (it would be better if it contains an integration or
+function test and all the breaking tests necessary). If you're not
+confident about writing tests, it is possible to refer to an issue
+that asks for the test to be written, or another (Draft) PR that
+contains the tests required.
+         </p>
+        </li>
+       </ol>
+       <p>
+        As we're trying to maintain at least 90% code coverage, you're strongly
+encouraged to write all of the tests necessary to keep coverage above
+that threshold. If coverage drops too low, you might be asked to add
+more tests and/or your PR might be rejected. See the
+        <a href="#testing">
+         Automatic testing
+        </a>
+        section.
+       </p>
+       <p>
+        Don't merge your own pull request! That\'s a task for the main reviewer
+of your PR or the project manager. Remember that the project manager
+doesn't have to be a reviewer of your PR!
+       </p>
+       <h2 id="reviewing-prs">
+        <a href="#reviewing">
+         Reviewing PRs
+        </a>
+        <a class="headerlink" href="#reviewing-prs" title="Permanent link">
+         #
+        </a>
+       </h2>
+       <p>
+        Reviewing PRs is an extremely important task in collaborative
+development. In fact, it is probably the task that requires the most
+time in the development, and it can be stressful for both the reviewer
+and the author. Remember that, as a PR Reviewer, you are guaranteeing
+that the changes work and integrate well with the rest of the
+repository, hence
+        <strong>
+         you are responsible for the quality of the
+repository and its next version release
+        </strong>
+        . If they don\'t integrate
+well, later PR reviewers might have to ask for broader changes than
+expected.
+       </p>
+       <p>
+        There are many best practices to review code online, for
+instance
+        <a href="https://medium.com/an-idea/the-code-review-guide-9e793edcd683">
+         this medium blog post
+        </a>
+        , but
+here are some good rules of thumbs that we need to follow while
+reviewing PRs:
+       </p>
+       <ul>
+        <li>
+         <p>
+          Be
+          <strong>
+           respectful
+          </strong>
+          to the PR authors and be clear in what you are
+    asking/suggesting - remember that, like you, they are contributing
+    their spare time and doing their best job!
+         </p>
+        </li>
+        <li>
+         <p>
+          If there is a
+          <em>
+           Draft PR
+          </em>
+          , you can comment on its development in the
+    message board or making "Comment" reviews. Don't ask for changes,
+    and especially,
+          <strong>
+           don't approve the PR
+          </strong>
+         </p>
+        </li>
+        <li>
+         <p>
+          If the PR graduated
+          <em>
+           from Draft to full PR
+          </em>
+          , check that it follows the
+    sections
+          <a href="#pr">
+           Pull requests
+          </a>
+          and
+          <a href="#styling">
+           Style Guide
+          </a>
+          of these
+    guidelines. If not, invite the author to do so before starting a
+    review.
+         </p>
+        </li>
+        <li>
+         <strong>
+          Don't limit your review to the parts that are changed
+         </strong>
+         . Look at
+    the entire file, see if the changes fit well in it, and see if the
+    changes are properly addressed everywhere in the code - in the
+    documentation, in the tests, and in other functions. Sometimes the
+    differences reported don't show the full impact of the PR in the
+    repository!
+        </li>
+        <li>
+         If your want to make Pull Requests an educational process, invite
+    the author of the PR to make changes before actually doing them
+    yourself. Request changes via comments or in the message board or by
+    checking out the PR locally, making changes and then submitting a PR
+    to the author's branch.
+        </li>
+        <li>
+         If you decide to use the suggestion tool in reviews, or to start a
+    PR to the branch under review, please alert the Project Manager.
+    Bots might automatically assign you contribution types that will
+    have to be removed (remember, your contribution in this case is
+    "Reviewer"). Instead of starting a PR to the branch under review,
+    think about opening a new PR with those modifications (unless they
+    are needed to pass tests), and alert the Main Reviewer. In any case
+         <strong>
+          don't commit directly to the branch under review
+         </strong>
+         !
+        </li>
+        <li>
+         If you're reviewing documentation, build it locally with
+         <a href="https://www.sphinx-doc.org/en/master/man/sphinx-build.html">
+          <code>
+           sphinx-build
+          </code>
+         </a>
+         command.
+        </li>
+        <li>
+         If you're asking for changes,
+         <strong>
+          don't approve the PR
+         </strong>
+         . Approve it
+    only after everything was sufficiently addressed. Someone else might
+    merge the PR in taking your word for granted.
+        </li>
+        <li>
+         If you are the main reviewer, and the last reviewer required to
+    approve the PR, merge the PR!
+        </li>
+       </ul>
+       <p>
+        Before approving and/or merging PRs, be sure that:
+       </p>
+       <ul>
+        <li>
+         All the tests in CircleCI/Azure pass without errors.
+        </li>
+        <li>
+         Prefereably, codecov checks pass as well. If they don\'t, discuss
+    what to do.
+        </li>
+        <li>
+         The title describes the content of the PR clearly enough to be
+    meaningful on its own - remember that it will appear in the version
+    changelog!
+        </li>
+        <li>
+         The PR has the appropriate labels to trigger the appropriate version
+    release and update the contributors table.
+        </li>
+       </ul>
+       <h3 id="main-reviewer">
+        <a href="#mainreviewer">
+         Main reviewer
+        </a>
+        <a class="headerlink" href="#main-reviewer" title="Permanent link">
+         #
+        </a>
+       </h3>
+       <p>
+        At
+        <code>
+         physiopy
+        </code>
+        we use the
+        <em>
+         Assignees
+        </em>
+        section of a PR to mark the
+        <strong>
+         main reviewer
+        </strong>
+        for that PR. The main reviewer is the primary person
+responsible
+        <strong>
+         for the quality of the repository and its next version release
+        </strong>
+        ,
+ as well as
+        <strong>
+         for the behaviour of the other reviewers
+        </strong>
+        .
+       </p>
+       <p>
+        <strong>
+         <em>
+          The main reviewer takes care of the reviewing process of the PR, in particular:
+         </em>
+        </strong>
+       </p>
+       <ul>
+        <li>
+         <p>
+          Invites the reviewers to finish their review in a relatively
+    short time.
+         </p>
+        </li>
+        <li>
+         <p>
+          Checks that all elements of this document were respected,
+    especially the part about
+          <a href="#pr">
+           Pull Requests
+          </a>
+          .
+         </p>
+        </li>
+        <li>
+         <p>
+          Invites other Reviewers to respect this document, especially
+    the part about
+          <a href="#reviewing">
+           reviews
+          </a>
+          , helps them in doing
+    so, and checks that they do.
+         </p>
+        </li>
+        <li>
+         <p>
+          If a Reviewer keeps not respecting this document, flags them
+    to the project manager.
+         </p>
+        </li>
+        <li>
+         <p>
+          Decides what to do in case of a coverage decrease (in
+          <em>
+           codecov/patch
+          </em>
+          ).
+         </p>
+        </li>
+       </ul>
+       <p>
+        <strong>
+         <em>
+          In case of missing tests or updates to user documentation:
+         </em>
+        </strong>
+       </p>
+       <ul>
+        <li>
+         <p>
+          Asks for more documentation or tests before approving the
+    PR,
+          <em>
+           or
+          </em>
+         </p>
+        </li>
+        <li>
+         <p>
+          Checks that the appropriate issues have been opened to
+    address the lack of documentation or tests (1 issue per item),
+          <em>
+           or
+          </em>
+         </p>
+        </li>
+        <li>
+         <p>
+          Double-checks that the title is clear and the labels are correct to
+    trigger an appropriate
+          <code>
+           auto
+          </code>
+          release - feel free to change them.
+         </p>
+        </li>
+        <li>
+         <p>
+          Main reviewer
+          <strong>
+           Is the one that is going to merge the PR.
+          </strong>
+         </p>
+        </li>
+       </ul>
+       <p>
+        <strong>
+         <em>
+          After the PR has been merged and a new release has been triggered, checks that:
+         </em>
+        </strong>
+       </p>
+       <ul>
+        <li>
+         The documentation was updated correctly (if changed).
+        </li>
+        <li>
+         The Pypi version of the repository coincides with the new release (if changed).
+        </li>
+        <li>
+         New contributors or forms of contributions were correctly added in the README (if changed).
+        </li>
+       </ul>
+       <h2 id="style-guide">
+        <a href="#styling">
+         Style Guide
+        </a>
+        <a class="headerlink" href="#style-guide" title="Permanent link">
+         #
+        </a>
+       </h2>
+       <p>
+        Docstrings should follow
+        <a href="https://numpydoc.readthedocs.io/en/latest/format.html">
+         numpydoc
+        </a>
+        convention. We encourage extensive documentation. The python code itself
+should follow
+        <a href="https://www.python.org/dev/peps/pep-0008/">
+         PEP8
+        </a>
+        convention whenever possible: there are continuous integration tests
+checking that! You can use linters to help you write your code following
+style conventions. Linters are add-ons that you can run on the written
+script file. We suggest the use of
+        <strong>
+         flake8
+        </strong>
+        for Python 3. Many editors
+(Atom, VScode, Sublimetext, ...) support addons for online lintering,
+which means you'll see warnings and errors while you write the code -
+check out if your does!
+       </p>
+       <p>
+        Since we adopt
+        <a href="https://intuit.github.io/auto/home.html">
+         auto
+        </a>
+        , the PR
+title will be automatically reported as part of the changelog when
+updating versions. Try to describe in one (short) sentence what your PR
+is about - possibly using the imperative and starting with a capital
+letter. For instance, a good PR title could be:
+        <code>
+         Implement support for &lt;randomtype&gt; files
+        </code>
+        or
+        <code>
+         Reorder dictionary entries
+        </code>
+        , rather than
+        <code>
+         &lt;randomtype&gt; support
+        </code>
+        or
+        <code>
+         reorders keys
+        </code>
+        .
+       </p>
+       <h2 id="automatic-testing">
+        <a href="#testing">
+         Automatic Testing
+        </a>
+        <a class="headerlink" href="#automatic-testing" title="Permanent link">
+         #
+        </a>
+       </h2>
+       <p>
+        <code>
+         physiopy
+        </code>
+        uses Continuous Integration (CI) to make life easier. In
+particular, we use the
+        <a href="https://circleci.com/">
+         CircleCI
+        </a>
+        platform to run
+automatic testing!
+        <strong>
+         Automatic tests
+        </strong>
+        are cold, robotic, emotionless,
+and opinionless tests that check that the program is doing what it is
+expected to. They are written by the developers and run (by CircleCI)
+every time they send a Pull Request to
+        <code>
+         physiopy
+        </code>
+        repositories. They
+complement the warm, human, emotional and opinionated
+        <strong>
+         user tests
+        </strong>
+        , as
+they tell us if a piece of code is failing. CircleCI uses
+        <a href="https://docs.pytest.org/en/latest/">
+         pytest
+        </a>
+        to run the tests. The great
+thing about it is that you can run it in advance on your local version
+of the code! We can measure the amount of code that is tested with
+        <a href="https://docs.pytest.org/en/latest/">
+         codecov
+        </a>
+        , which is an indication of
+how reliable our packages are! We try to maintain a 90% code coverage,
+and for this reason, PR should contain tests! The four main type of
+tests we use are:
+       </p>
+       <ol>
+        <li>
+         <p>
+          Unit tests :
+         </p>
+         <div class="codehilite">
+          <pre><span></span><code><span class="err">Unit tests check that a minimal piece of code is doing what it</span>
+<span class="err">should be doing. Normally this means calling a function with</span>
+<span class="err">some mock parameters and checking that the output is equal to</span>
+<span class="err">the expected output. For example, to test a function that adds</span>
+<span class="err">two given numbers together (1 and 3), we would call the function</span>
+<span class="err">with those parameters, and check that the output is 4.</span>
+</code></pre>
+         </div>
+        </li>
+        <li>
+         <p>
+          Breaking tests
+         </p>
+         <div class="codehilite">
+          <pre><span></span><code><span class="err">Breaking tests are what you expect - they check that the program</span>
+<span class="err">is breaking when it should. This means calling a function with</span>
+<span class="err">parameters that are expected **not** to work, and check that it</span>
+<span class="err">raises a proper error or warning.</span>
+</code></pre>
+         </div>
+        </li>
+        <li>
+         <p>
+          Integration tests
+         </p>
+         <div class="codehilite">
+          <pre><span></span><code><span class="err">Integration tests check that the code has an expected output,</span>
+<span class="err">being blind to its content. This means that if the program</span>
+<span class="err">should output a new file, the file exists - even if it's empty.</span>
+<span class="err">This type of tests are normally run on real data and call the</span>
+<span class="err">program itself. For instance, documentation PRs should check</span>
+<span class="err">that the documentation page is produced!</span>
+</code></pre>
+         </div>
+        </li>
+        <li>
+         <p>
+          Functional tests
+         </p>
+         <div class="codehilite">
+          <pre><span></span><code><span class="err">If integration tests and unit tests could have babies, those</span>
+<span class="err">would be functional tests. In practice, this kind of tests check</span>
+<span class="err">that an output is produced, and *also* that it contains what it</span>
+<span class="err">should contain. If a function should output a new file or an</span>
+<span class="err">object, this test passes only if the file exists *and* it is</span>
+<span class="err">like we expect it to be. They are run on real or mock data, and</span>
+<span class="err">call the program itself or a function.</span>
+</code></pre>
+         </div>
+        </li>
+       </ol>
+       <h2 id="recognising-contributors">
+        <a href="#recognising">
+         Recognising contributors
+        </a>
+        <a class="headerlink" href="#recognising-contributors" title="Permanent link">
+         #
+        </a>
+       </h2>
+       <p>
+        We welcome and recognize
+        <a href="https://allcontributors.org/docs/en/specification">
+         all
+contributions
+        </a>
+        from
+documentation to testing to code development. You can see a list of
+current contributors in the README (kept up to date by the
+        <a href="https://allcontributors.org/docs/en/bot/overview">
+         all
+contributors bot
+        </a>
+        ).
+       </p>
+       <p>
+        <strong>
+         Thank you!
+        </strong>
+       </p>
+       <p>
+        <em>
+         --- Based on contributing guidelines from the
+         <a href="https://github.com/KirstieJane/STEMMRoleModels">
+          STEMMRoleModels
+         </a>
+         project.
+        </em>
+       </p>
+      </article>
+     </div>
+    </div>
+   </main>
+   <footer class="md-footer">
+    <div class="md-footer-nav">
+     <nav aria-label="Footer" class="md-footer-nav__inner md-grid">
+      <a class="md-footer-nav__link md-footer-nav__link--prev" href="../contributing/" rel="prev">
+       <div class="md-footer-nav__button md-icon">
+        <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z">
+         </path>
+        </svg>
+       </div>
+       <div class="md-footer-nav__title">
+        <div class="md-ellipsis">
+         <span class="md-footer-nav__direction">
+          Previous
+         </span>
+         Contributing
+        </div>
+       </div>
+      </a>
+      <a class="md-footer-nav__link md-footer-nav__link--next" href="../CODE_OF_CONDUCT/" rel="next">
+       <div class="md-footer-nav__title">
+        <div class="md-ellipsis">
+         <span class="md-footer-nav__direction">
+          Next
+         </span>
+         Code of Conduct
+        </div>
+       </div>
+       <div class="md-footer-nav__button md-icon">
+        <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+         <path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z">
+         </path>
+        </svg>
+       </div>
+      </a>
+     </nav>
+    </div>
+    <div class="md-footer-meta md-typeset">
+     <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+       <div class="md-footer-copyright__highlight">
+        Copyright © 2020
+       </div>
+       Made with
+       <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+        Material for MkDocs
+       </a>
+      </div>
+     </div>
+    </div>
+   </footer>
+  </div>
+  <script src="../../assets/javascripts/vendor.fd16492e.min.js">
+  </script>
+  <script src="../../assets/javascripts/bundle.7836ba4d.min.js">
+  </script>
+  <script id="__lang" type="application/json">
+   {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}
+  </script>
+  <script>
+   app = initialize({
+          base: "../..",
+          features: ['tabs'],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+  </script>
+ </body>
+</html>
