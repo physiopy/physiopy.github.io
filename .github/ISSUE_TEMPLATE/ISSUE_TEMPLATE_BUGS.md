@@ -24,11 +24,6 @@ assignees:
     2.
     3.
 
-## Specifications
-<!--- Point out the version of phys2bids you are running and your OS version -->
-    - Python version: 
-    - phys2bids version:
-    - Platform:
 
 ## Possible solution
 <!--- Describe a possible approach to solve the issue -->
