@@ -226,7 +226,7 @@ right PR labels**!
 
 - ![Minormod](https://img.shields.io/badge/-Minormod-05246D?style=flat-square&logo=appveyor.svg) This PR generally closes an `Enhancement` issue. It increments the minor version (0.+1.0)
 
-- ![Minormod-breaking](https://img.shields.io/badge/-Minormod&ndash;breaking-05246D?style=flat-square&logo=appveyor.svg) These PRs call for a new minor release (0.+1.0). This means that the PR is  **not** breaking backward compatibility.
+- ![Minormod-breaking](https://img.shields.io/badge/-Minormod&ndash;breaking-05246D?style=flat-square) This label should be used during development stages (<1.0.0) only. These PRs call for a new minor release during development (0.+1.0) that **will** break backward compatibility. 
 
 - ![Internal](https://img.shields.io/badge/-Internal-ffffff?style=flat-square&logo=appveyor.svg) This PR contains changes to the internal API. It won\'t
   trigger a release, but it will be reported in the changelog.
