@@ -152,74 +152,97 @@ right PR labels**!
 
 ### Issue & PR labels
 
-- Documentation: Improvements or additions to documentation. This
+- ![Documentation](https://img.shields.io/badge/-Documentation-1D70CF?style=flat-square&logo=appveyor.svg) Improvements or additions to documentation. This
   category includes (but is not limited to) docs pages, docstrings,
-  and code comments.
-- Duplicate: Whatever this is, it exists already! Maybe it's a closed
-  Issue/PR, that should be reopened.
-- Enhancement: New features added or requested. This normally goes
-  with a `minormod` label for PRs.
-- Outreach: As part of the scientific community, we care about
-  outreach. Check the relevant section about it, but know that this
+  and code comments. 
+
+- ![Duplicate](https://img.shields.io/badge/-Duplicate-CFD3D7?style=flat-square&logo=appveyor.svg) Whatever this is, it exists already! Maybe it's a closed
+  Issue/PR, that should be reopened. 
+
+- ![Enhancement](https://img.shields.io/badge/-Enhancement-A2EEEF?style=flat-square&logo=appveyor.svg) New features added or requested. This normally goes with a `minormod` label for PRs.
+
+- ![Outreach](https://img.shields.io/badge/-Outreach-0E8A16?style=flat-square&logo=appveyor.svg) As part of the scientific community, we care about outreach. Check the relevant section about it, but know that this
   Issue/PR contains information or tasks about abstracts, talks,
-  demonstrations, papers.
-- Paused: Issue or PR should not be worked on until the resolution of
-  other issues or PRs.
-- Testing: This is for testing features, writing tests or producing
-  testing code. Both user testing and CI testing!
-- Urgent: If you don\'t know where to start, start here! This is
-  probably related to a milestone due soon!
+  demonstrations, papers. 
+
+- ![Paused](https://img.shields.io/badge/-Paused-F7C38C?style=flat-square&logo=appveyor.svg) Issue or PR should not be worked on until the resolution of other issues or PRs.
+
+- ![released](https://img.shields.io/badge/-released-ffffff?style=flat-square&logo=appveyor.svg) This Issue or PR has been released. 
+
+- ![Testing](https://img.shields.io/badge/-Testing-FFB5B4?style=flat-square&logo=appveyor.svg) This is for testing features, writing tests or producing testing code. Both user testing and CI testing!
+
+- ![Urgent](https://img.shields.io/badge/-Urgent-FFF200?style=flat-square&logo=appveyor.svg) If you don\'t know where to start, start here! This is probably related to a milestone due soon!
 
 ### Issue-only labels
 
-- Bug: Something isn't working. It either breaks the code or has an
+- ![BrainHack](https://img.shields.io/badge/-BrainHack-000000?style=flat-square&logo=appveyor.svg) This issue is suggested for BrainHack participants!
+
+- ![Bug](https://img.shields.io/badge/-Bug-D73A4A?style=flat-square&logo=appveyor.svg) Something isn't working. It either breaks the code or has an
   unexpected outcome.
-- Community: This issue contains information about the `physiopy`
+
+- ![Community](https://img.shields.io/badge/-Community-E2C7FC?style=flat-square&logo=appveyor.svg) This issue contains information about the `physiopy`
   community (e.g. the next developer call)
-- Discussion: Discussion of a concept or implementation. These Issues
+ 
+- ![Discussion](https://img.shields.io/badge/-Discussion-1C778C?style=flat-square&logo=appveyor.svg) Discussion of a concept or implementation. These Issues
   are prone to be open ad infinitum. Jump in the conversation if you
   want!
-- Good first issue: Good for newcomers. These issues calls for a
+
+- ![Good first issue](https://img.shields.io/badge/-Good%20first%20issue-4E2A84?style=flat-square&logo=appveyor.svg) Good for newcomers. These issues calls for a
   **fairly** easy enhancement, or for a change that helps/requires
   getting to know the code better. They have educational value, and
   for this reason, unless urgent, experts in the topic should refrain
   from closing them - but help newcomers closing them.
-- Hacktoberfest: Dedicated to the hacktoberfest event, so that people
+
+- ![Hacktoberfest](https://img.shields.io/badge/-Hacktoberfest-FF7518?style=flat-square&logo=appveyor.svg) Dedicated to the hacktoberfest event, so that people
   can help and feel good about it (and show it with a T-shirt!).
   **Such commits will not be recognised in the all-contributor table,
   unless otherwise specified**.
-- Help wanted: Extra attention is needed here! It's a good place to
-  have a look!
-- Refactoring: Improve nonfunctional attributes. Which means rewriting
+
+- ![Help wanted](https://img.shields.io/badge/-Help%20wanted-57DB1A?style=flat-square&logo=appveyor.svg) Extra attention is needed here! It's a good place to have a look!
+
+- ![prerelease](https://img.shields.io/badge/-prerelease-60189D?style=flat-square&logo=appveyor.svg) This change is available in a prerelease.
+
+- ![Refactoring](https://img.shields.io/badge/-Refactoring-9494FF?style=flat-square&logo=appveyor.svg) Improve nonfunctional attributes. Which means rewriting
   the code or the documentation to improve performance or just because
   there's a better way to express those lines. It might create a
   `majormod` PR.
-- Question: Further information is requested, from users to
+
+- ![Question](https://img.shields.io/badge/-Question-D876E3?style=flat-square&logo=appveyor.svg) Further information is requested, from users to
   developers. Try to respond to this!
-- Wontfix: This will not be worked on, until further notice.
+  
+- ![Wontfix](https://img.shields.io/badge/-Wontfix-ffffff?style=flat-square&logo=appveyor.svg) This will not be worked on, until further notice.
 
 ### PR-only labels
 
 #### Labels for semantic release and changelogs
 
-- Majormod: These PRs call for a new major release (+1.0.0). This
-  means that the PR is breaking backward compatibility.
-- Minormod: These PRs call for a new minor release (0.+1.0). This
-  means that the PR is **not** breaking backward compatibility.
-- BugFIX: These PRs close an issue labelled `bug`. They also increase
+- ![BugFIX](https://img.shields.io/badge/-BugFIX-D73A4A?style=flat-square&logo=appveyor.svg) These PRs close an issue labelled `Bug`. They also increase
   the semantic versioning for fixes (+0.0.1).
-- Internal: This PR contains changes to the internal API. It won\'t
+
+ - ![dependencies](https://img.shields.io/badge/-dependencies-0366D6?style=flat-square&logo=appveyor.svg) Pull requests that update a dependency file
+
+- ![Documentation](https://img.shields.io/badge/-Documentation-1D70CF?style=flat-square&logo=appveyor.svg) See above. This PR won\'t trigger a release, but it will be reported in the changelog.
+
+- ![Majormod](https://img.shields.io/badge/-Majormod-05246D?style=flat-square&logo=appveyor.svg) These PRs call for a new major release (+1.0.0). This
+  means that the PR is **not** breaking backward compatibility.
+
+- ![Minormod](https://img.shields.io/badge/-Minormod-05246D?style=flat-square&logo=appveyor.svg) This PR generally closes an `Enhancement` issue. It increments the minor version (0.+1.0)
+
+- ![Minormod-breaking](https://img.shields.io/badge/-Minormod&ndash;breaking-05246D?style=flat-square&logo=appveyor.svg) These PRs call for a new minor release (0.+1.0). This means that the PR is breaking backward compatibility.
+
+- ![Internal](https://img.shields.io/badge/-Internal-ffffff?style=flat-square&logo=appveyor.svg) This PR contains changes to the internal API. It won\'t
   trigger a release, but it will be reported in the changelog.
-- Documentation: See above. This PR won\'t trigger a release, but it
-  will be reported in the changelog.
-- Testing: See above. This PR won\'t trigger a release, but it will be
+
+- ![Testing](https://img.shields.io/badge/-Testing-FFB5B4?style=flat-square&logo=appveyor.svg) See above. This PR won\'t trigger a release, but it will be
   reported in the changelog.
-- Skip release: This PR will **not** trigger a release.
-- Release: This PR will force the trigger of a release.
+
+- ![Skip release](https://img.shields.io/badge/-Skip%20release-ffffff?style=flat-square&logo=appveyor.svg) This PR will **not** trigger a release.
+
+- ![Release](https://img.shields.io/badge/-Release-ffffff?style=flat-square&logo=appveyor.svg) This PR will force the trigger of a release.
 
 #### Other labels
 
-- Invalid: These PRs don't seem right. They actually seem so not
+- ![Invalid](https://img.shields.io/badge/-Invalid-960018?style=flat-square&logo=appveyor.svg): These PRs don't seem right. They actually seem so not
   right that they won't be further processed. This label invalidates a
   Hacktoberfest contribution. If you think this is wrong, start a
   discussion in the relevant issue (or open one if missing). Reviewers
