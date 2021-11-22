@@ -200,8 +200,6 @@ right PR labels**!
 
 - ![Help wanted](https://img.shields.io/badge/-Help%20wanted-57DB1A?style=flat-square&logo=appveyor.svg) Extra attention is needed here! It's a good place to have a look!
 
-- ![prerelease](https://img.shields.io/badge/-prerelease-60189D?style=flat-square&logo=appveyor.svg) This change is available in a prerelease.
-
 - ![Refactoring](https://img.shields.io/badge/-Refactoring-9494FF?style=flat-square&logo=appveyor.svg) Improve nonfunctional attributes. Which means rewriting
   the code or the documentation to improve performance or just because
   there's a better way to express those lines. It might create a
@@ -224,11 +222,11 @@ right PR labels**!
 - ![Documentation](https://img.shields.io/badge/-Documentation-1D70CF?style=flat-square&logo=appveyor.svg) See above. This PR won\'t trigger a release, but it will be reported in the changelog.
 
 - ![Majormod](https://img.shields.io/badge/-Majormod-05246D?style=flat-square&logo=appveyor.svg) These PRs call for a new major release (+1.0.0). This
-  means that the PR is **not** breaking backward compatibility.
+  means that the PR is breaking backward compatibility.
 
 - ![Minormod](https://img.shields.io/badge/-Minormod-05246D?style=flat-square&logo=appveyor.svg) This PR generally closes an `Enhancement` issue. It increments the minor version (0.+1.0)
 
-- ![Minormod-breaking](https://img.shields.io/badge/-Minormod&ndash;breaking-05246D?style=flat-square&logo=appveyor.svg) These PRs call for a new minor release (0.+1.0). This means that the PR is breaking backward compatibility.
+- ![Minormod-breaking](https://img.shields.io/badge/-Minormod&ndash;breaking-05246D?style=flat-square&logo=appveyor.svg) These PRs call for a new minor release (0.+1.0). This means that the PR is  **not** breaking backward compatibility.
 
 - ![Internal](https://img.shields.io/badge/-Internal-ffffff?style=flat-square&logo=appveyor.svg) This PR contains changes to the internal API. It won\'t
   trigger a release, but it will be reported in the changelog.
