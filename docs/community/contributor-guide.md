@@ -13,7 +13,7 @@ original contributors learned these things exactly this way - jumping in
 and hoping to fall in the right way without breaking too many bones. Do
 you want to jump in but don't exactly know where/how? You can drop a few
 lines in [gitter](https://gitter.im/phys2bids/community), so we can help
-you find something that suits you! Already know what you\'re looking for
+you find something that suits you! Already know what you're looking for
 in this guide? Jump to the following sections:
 
 ## Aims of physiopy
@@ -53,7 +53,7 @@ If you are new to GitHub and just have a small documentation change
 recommendation (such as: typos detection, small improvements in the
 content, ...), please open an issue in the relative project, and label
 it with the "Documentation" label. Chances are those types of changes
-are easily doable with GitHub\'s online editor, which means you can do
+are easily doable with GitHub's online editor, which means you can do
 them, or ask for help from the developers!
 
 ### Contributing with user testing
@@ -147,7 +147,7 @@ The current list of labels are
 [here](https://github.com/physiopy/phys2bids/labels). They can be used
 for **Issues**, **PRs**, or both. We use
 [auto](https://github.com/intuit/auto) to automate our semantic
-versioning and Pypi upload, so **it\'s extremely important to use the
+versioning and Pypi upload, so **it's extremely important to use the
 right PR labels**!
 
 ### Issue & PR labels
@@ -171,7 +171,7 @@ right PR labels**!
 
 - ![Testing](https://img.shields.io/badge/-Testing-FFB5B4?style=flat-square) This is for testing features, writing tests or producing testing code. Both user testing and CI testing!
 
-- ![Urgent](https://img.shields.io/badge/-Urgent-FFF200?style=flat-square) If you don\'t know where to start, start here! This is probably related to a milestone due soon!
+- ![Urgent](https://img.shields.io/badge/-Urgent-FFF200?style=flat-square) If you don't know where to start, start here! This is probably related to a milestone due soon!
 
 ### Issue-only labels
 
@@ -219,7 +219,7 @@ right PR labels**!
 
  - ![dependencies](https://img.shields.io/badge/-dependencies-0366D6?style=flat-square) Pull requests that update a dependency file
 
-- ![Documentation](https://img.shields.io/badge/-Documentation-1D70CF?style=flat-square) See above. This PR won\'t trigger a release, but it will be reported in the changelog.
+- ![Documentation](https://img.shields.io/badge/-Documentation-1D70CF?style=flat-square) See above. This PR won't trigger a release, but it will be reported in the changelog.
 
 - ![Majormod](https://img.shields.io/badge/-Majormod-05246D?style=flat-square) These PRs call for a new major release (+1.0.0). This
   means that the PR is breaking backward compatibility.
@@ -228,10 +228,10 @@ right PR labels**!
 
 - ![Minormod-breaking](https://img.shields.io/badge/-Minormod&ndash;breaking-05246D?style=flat-square) This label should be used during development stages (<1.0.0) only. These PRs call for a new minor release during development (0.+1.0) that **will** break backward compatibility. 
 
-- ![Internal](https://img.shields.io/badge/-Internal-ffffff?style=flat-square) This PR contains changes to the internal API. It won\'t
+- ![Internal](https://img.shields.io/badge/-Internal-ffffff?style=flat-square) This PR contains changes to the internal API. It won't
   trigger a release, but it will be reported in the changelog.
 
-- ![Testing](https://img.shields.io/badge/-Testing-FFB5B4?style=flat-square) See above. This PR won\'t trigger a release, but it will be
+- ![Testing](https://img.shields.io/badge/-Testing-FFB5B4?style=flat-square) See above. This PR won't trigger a release, but it will be
   reported in the changelog.
 
 - ![Skip release](https://img.shields.io/badge/-Skip%20release-ffffff?style=flat-square) This PR will **not** trigger a release.
@@ -278,16 +278,16 @@ See our [complete documentation](CONTRIBUTING.md#contributing) on the matter
 
 ## Pull Requests
 
-To improve understanding pull requests \"at a glance\" and use the power
+To improve understanding pull requests "at a glance" and use the power
 of `auto`, we use the labels listed above. Multiple labels can be
 assigned to a PR - in fact, all those that you think are relevant. We
-strongly advise to keep the changes you\'re introducing with your PR
+strongly advise to keep the changes you're introducing with your PR
 limited to your original goal. Adding to the scope of your PR little
 style corrections or code refactoring here and there in the code that
-you\'re already modifying is a great help, but when they become too much
+you're already modifying is a great help, but when they become too much
 (and they are not relevant to your PR) they risk complicating the nature
 of the PR and the reviewing process. It is much better to open another
-PR with the objective of doing such corrections! Moreover, if you\'re
+PR with the objective of doing such corrections! Moreover, if you're
 tempted to assign more than one label that would trigger a release (e.g.
 bug and minormod or bug and majormod, etc.), you might want to split your PR
 instead. When opening a pull request, assign it at least one label.
@@ -357,7 +357,7 @@ encouraged to write all of the tests necessary to keep coverage above
 that threshold. If coverage drops too low, you might be asked to add
 more tests and/or your PR might be rejected. See the [Automatic testing](#automatic-testing) section.
 
-Don't merge your own pull request! That\'s a task for the main reviewer
+Don't merge your own pull request! That's a task for the main reviewer
 of your PR or the project manager. Remember that the project manager
 doesn't have to be a reviewer of your PR!
 
@@ -369,7 +369,7 @@ time in the development, and it can be stressful for both the reviewer
 and the author. Remember that, as a PR Reviewer, you are guaranteeing
 that the changes work and integrate well with the rest of the
 repository, hence **you are responsible for the quality of the
-repository and its next version release**. If they don\'t integrate
+repository and its next version release**. If they don't integrate
 well, later PR reviewers might have to ask for broader changes than
 expected.
 
@@ -419,7 +419,7 @@ reviewing PRs:
 Before approving and/or merging PRs, be sure that:
 
 - All the tests in CircleCI/Azure pass without errors.
-- Prefereably, codecov checks pass as well. If they don\'t, discuss
+- Prefereably, codecov checks pass as well. If they don't, discuss
   what to do.
 - The title describes the content of the PR clearly enough to be
   meaningful on its own - remember that it will appear in the version
