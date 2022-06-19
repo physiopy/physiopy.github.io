@@ -21,17 +21,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://physiopy.github.io/community/contributing/</loc>
-         <lastmod>2022-06-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://physiopy.github.io/community/contributor-guide/</loc>
          <lastmod>2022-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://physiopy.github.io/community/contributorfile/</loc>
+         <lastmod>2022-06-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/community/gettingstarted/</loc>
          <lastmod>2022-06-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
