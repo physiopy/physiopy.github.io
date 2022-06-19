@@ -1,4 +1,4 @@
-[Contributing to `physiopy`](#contributing)
+# Getting Started!
 ==========================
 
 First of all: thank you!
