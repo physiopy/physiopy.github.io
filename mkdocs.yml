@@ -10,39 +10,37 @@ copyright: Copyright &copy; 2020
 nav:
     - Home: index.md
     - Libraries:
-      - phys2bids: 'https://phys2bids.readthedocs.io/en/latest/'
+      - Libraries: libraries.md
+      - phys2bids: libraries/phys2bids.md
       - phys2denoise: libraries/phys2denoise.md
       - peakdet: libraries/peakdet.md
+    - Best Practices: best_practices.md
     - Community:
       - Welcome: community/index.md
-      - Membership: community/members.md
-      - Collecting Physiological Data: community/best-practices.md
-      - Open Datasets: community/open_datasets.md
-      - Contributing: community/contributing.md
+      - Getting Started: community/gettingstarted.md
       - Contributor Guide: community/contributor-guide.md 
-      - Code of Conduct: community/code_of_conduct.md
-      - Other Tools: community/other_tools.md
-    - Developers:
-      - Versions Matrix: devs/versions.md
-      - Releases: devs/releases.md
-theme:
-  name: material
-  features:
-    - tabs
+      - Open Datasets: community/open_datasets.md
+      - Code of Conduct: community/CODE_OF_CONDUCT.md
+      - Team: community/team.md
+      
+#theme:
+#  name: material
+#  features:
+#    - tabs
 
-markdown_extensions:
-  - admonition
-  - codehilite
-  - footnotes
-  - toc:
-      permalink: "#"
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.superfences
-  - pymdownx.snippets
-  - markdown_include.include:
-      base_path: docs
+#markdown_extensions:
+#  - admonition
+#  - codehilite
+#  - footnotes
+#  - toc:
+#      permalink: "#"
+#  - pymdownx.emoji:
+#      emoji_index: !!python/name:materialx.emoji.twemoji
+#      emoji_generator: !!python/name:materialx.emoji.to_svg
+#  - pymdownx.superfences
+#  - pymdownx.snippets
+#  - markdown_include.include:
+#      base_path: docs
 
-plugins:
-  - toc-sidebar
+#plugins:
+#  - toc-sidebar
