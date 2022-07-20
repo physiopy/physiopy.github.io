@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://physiopy.github.io/best_practices/</loc>
+         <lastmod>2022-07-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://physiopy.github.io/community/</loc>
          <lastmod>2022-07-20</lastmod>
          <changefreq>daily</changefreq>

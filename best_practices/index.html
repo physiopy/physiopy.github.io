@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="The Physiopy developers">
+        <link rel="canonical" href="https://physiopy.github.io/best_practices/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Best Practices - Physiopy</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Physiopy</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Libraries <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../libraries.md" class="dropdown-item">Libraries</a>
+</li>
+                                    
+<li>
+    <a href="../libraries/phys2bids/" class="dropdown-item">phys2bids</a>
+</li>
+                                    
+<li>
+    <a href="../libraries/phys2denoise/" class="dropdown-item">phys2denoise</a>
+</li>
+                                    
+<li>
+    <a href="../libraries/peakdet/" class="dropdown-item">peakdet</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Best Practices</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../community/" class="dropdown-item">Welcome</a>
+</li>
+                                    
+<li>
+    <a href="../community/gettingstarted/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../community/contributor-guide/" class="dropdown-item">Contributor Guide</a>
+</li>
+                                    
+<li>
+    <a href="../community/open_datasets/" class="dropdown-item">Open Datasets</a>
+</li>
+                                    
+<li>
+    <a href="../community/CODE_OF_CONDUCT/" class="dropdown-item">Code of Conduct</a>
+</li>
+                                    
+<li>
+    <a href="../community/team/" class="dropdown-item">Team</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../libraries/peakdet/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../community/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#best-practices-for-collecting-physiological-data" class="nav-link">Best Practices for Collecting Physiological Data</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#why-collect-physiological-data" class="nav-link">Why collect physiological data?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#how-are-typical-physiological-data-collected" class="nav-link">How are typical physiological data collected?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#what-equipment-is-needed" class="nav-link">What equipment is needed?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#what-to-do-with-physiological-data-once-they-has-been-collected" class="nav-link">What to do with physiological data once they has been collected?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#references" class="nav-link">References</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="best-practices-for-collecting-physiological-data"><a href="#bestpractice">Best Practices for Collecting Physiological Data</a></h1>
+<p>This document provides a succinct introduction to what physiological
+data are typically recorded during an fMRI experiment, how these signals
+are recorded, and how these signals can improve our modeling of fMRI
+time series data. This is an active field of research, and we encourage
+all users to get the latest recommendations prior to initiating a new
+study. For a more in-depth article on similar subject matter, please see
+<a href="https://www.sciencedirect.com/science/article/pii/S1053811916306929">Bulte and Wartolowska (2017) Neuroimage
+154:81-91</a>.</p>
+<h2 id="why-collect-physiological-data"><a href="#whycollectphysdata">Why collect physiological data?</a></h2>
+<p>Physiological monitoring is a key component of understanding
+physiological sources of signal variance in fMRI data. Monitoring
+physiology during scanning is critical to enable the characterization of
+a given subject\'s physiologic state at the time of the scan, and to
+track variations in physiology throughout the scan. With these data, we
+can more accurately model how these factors manifest in the fMRI signal
+time series.</p>
+<p>Physiological fluctuations can be identified as \"noise\" or as
+\"signals of interest\", depending on the research question of the
+imaging experiment. For most fMRI experiments, the goal is to isolate
+signal fluctuations that are associated with a neural stimulus and the
+resulting hemodynamic response (Caballero-Gaudes et al. 2016). In these
+data, it is important to model and remove signals with a non-neural
+origin, such as breathing or cardiac related signal variance. Removing
+these confounds will improve the sensitivity and confidence of the fMRI
+analysis. In some fMRI experiments, the goal is to characterize a
+physiologic effect (for example, studies that map cerebrovascular
+reactivity aim to quantify the dilation of blood vessels during certain
+non-neural stimuli) (Caballero-Gaudes et al. 2016). In these studies it
+is essential that the relevant physiologic parameters are recorded so
+that the analysis produces robust, quantitative physiological parameter
+maps.</p>
+<p>Another benefit of collecting physiological data is that it provides a
+method to monitor the subject and/or patient during the scan in
+real-time. Any sudden changes in the different aspects being monitored
+can help those in the control room identify if the person is under
+duress or complying with the scan protocol. Looking out for these
+changes is particularly helpful during an individual\'s first MRI scan,
+when they may react poorly to the scan environment. In some protocols,
+tracking physiology in real-time can ensure that values stay within
+safe, IRB-approved limits.</p>
+<p>Although current modeling of physiology is imperfect, and fMRI signal
+processing techniques do not yet accurately factor in all physiologic
+signals, the field continues to develop and our modeling continues to
+improve. We encourage all fMRI researchers to collect these data to more
+fully capture the variable human physiology inherent to imaging
+experiments.</p>
+<h2 id="how-are-typical-physiological-data-collected"><a href="#differenttypesofphysdata">How are typical physiological data collected?</a></h2>
+<p>The most common types of physiological data acquired in fMRI analysis
+are cardiac pulsation (pulse), breathing (chest position), and expired
+gas concentrations (particularly CO2 and O2).</p>
+<p><strong>Cardiac pulsation</strong> can be collected via a sensor on the fingertip (or
+ear lobe, toe, or other pulse point). These devices are often known as a
+photoplethysmograph, and typically are included in the MRI scanner
+infrastructure. The data can thus be collected by the scanner, or
+recorded by a separate device. Typically the peaks of the cardiac
+pulsation trace are identified (e.g., the timing of each heart beat).
+Cardiac pulsation causes local movement artifacts, particularly around
+large arterial vessels, the edges of the ventricles, and in brainstem
+areas (Dagli et al. 1999). RETROICOR (Glover et al. 2000) is one cardiac
+denoising example, where the timing of each fMRI acquisition relative to
+the nearest cardiac peak is used to model and remove these local
+pulsation artifacts. Low frequency changes in heart rate have also been
+modeled and shown to influence the fMRI time series (Shmueli et al.
+2007, Chang et al. 2009).</p>
+<p><strong>Breathing</strong> is typically monitored using a \"respiratory belt\" around
+the participant\'s chest/diaphragm. The belt may be rigid or elastic,
+using MR compatible force or pressure transducers to generate a signal
+proportional to the chest diameter. The optimal positioning of the belt
+depends on the device being used, however it is best to be fairly
+consistent in how the belt is worn throughout a study. In some labs,
+multiple belts are used to better capture different types of breathing
+styles (e.g., \"chest breathing\" versus \"belly breathing\"). Often a
+belt is incorporated into the MRI scanner infrastructure, and these data
+can be collected by the scanner or recorded by a separate device. The
+peaks and troughs of the breathing trace are identified, which can
+provide information about breathing rate as well as breathing depth.
+There are three primary ways by which breathing can influence the fMRI
+signals. First, breathing often leads to bulk motion of the body and
+head (Brosch et al. 2002). These effects are typically modeled using
+volume registration and motion correction algorithms. Second, breathing
+changes the chest position which can influence the success of the shim,
+continuously changing B0 homogeneity throughout the scan and in turn
+affecting signal amplitude (Brosch et al. 2002, Raj et al. 2001). These
+effects are also modeled using techniques like RETROICOR. Thirdly,
+changing breathing rate and depth can influence blood gases, which can
+drive vasodilation or vasoconstriction, and thus substantially influence
+the fMRI signal amplitude (Chang and Glover 2009). RVT correction (Birn
+et al. 2008) estimates the change in breathing rate/depth to model these
+effects.</p>
+<p><strong>Blood gases</strong> It is also possible (and recommended!) to directly
+record changes in blood gas levels, rather than infer them from a chest
+position measurement. Most commonly we measure carbon dioxide levels
+(CO2), which is a known vasodilator and can drive large variability in
+blood flow and the BOLD signal (Birn et al. 2006, Wise et al. 2004). We
+can also measure oxygen (O2) levels; O2 only has a mild vasoconstrictive
+effect on the cerebrovasculature, but O2 levels can directly influence
+BOLD signal contrast (Bulte et al. 2007). These two blood gases are
+typically strongly anticorrelated with each other in most scans, but can
+also be manipulated independently and influence the fMRI signals through
+distinct mechanisms (Floyd et al. 2003). Best practice would be to
+record both. Although the most accurate recordings of blood gas levels
+would be achieved through arterial sampling, this is not recommended for
+most imaging experiments. Instead, the concentrations of CO2 and O2 in
+arterial blood can be approximated by the partial pressure of each gas
+at the end of an exhalation, or the end-tidal partial pressure (commonly
+abbreviated as PETCO2 and PETO2) (Bengtsson et al. 2001, McSwain et al.
+2010). The person being scanned wears a nasal cannula (soft plastic tube
+that rests just below the nostrils) or face mask that is connected to a
+gas analyzer in the control room. The resulting data shows the
+fluctuations in CO2 and O2 across every breath; an algorithm must
+extract the \"end-tidal\" values.</p>
+<h2 id="what-equipment-is-needed"><a href="#howtocollectphysdata">What equipment is needed?</a></h2>
+<p>Peripheral devices:</p>
+<ul>
+<li>finger photoplethysmograph (pulse-oximeter)</li>
+<li>respiratory belt</li>
+<li>disposable nasal cannula (or face mask)</li>
+<li>long sample line to connect from the scan room to the control room</li>
+</ul>
+<p>Some peripheral devices can be passed through a void in the penetration
+panel from the control room to the scan room (e.g., gas sampling line);
+others must be plugged into the penetration panel for noise filtering
+(e.g., some pulse sensors). Devices native to the MRI scanner may
+communicate wirelessly with the scanner. When adding non-native
+peripheral devices to the scanner environment, we recommend that you
+check that you are not bringing any outside noise into the scan room or
+bringing too much scanner noise into the physiological recordings. It
+may be necessary to develop additional devices or mechanisms to shield
+these connections.</p>
+<p>Recording devices:</p>
+<ul>
+<li>CO2 and O2 analyzer</li>
+<li>analog-to-digital converter (ADC) or other data acquisition (DAQ)
+    device</li>
+<li>associated signal recording/analysis software</li>
+</ul>
+<p>For example, ADInstruments sells the Powerlab and uses LabChart
+software; Biopac sells the MP160 and uses AcqKnowledge software. It is
+also important to sync the physiological recordings with the fMRI scan
+triggers. To do this, it will be necessary to extract the trigger pulses
+from your MRI scanner, typically inputting these analog signals via BNC
+into the same ADC that is recording the physiological information.</p>
+<h2 id="what-to-do-with-physiological-data-once-they-has-been-collected"><a href="#whattodowithphysdata">What to do with physiological data once they has been collected?</a></h2>
+<p>Ideally you have recorded physiological data throughout the entire scan
+session, and have trigger data to identify when scanning occurred.
+Phys2bids can be used to organize the various physiological data traces
+that you have collected. With this program, your data will have the
+appropriate BIDS labels to describe physiological information. As a
+sanity check, you should quickly plot each trace to ensure that it
+matches the type of information you think you collected.</p>
+<p>After this restructuring of the data, there are numerous tools available
+to process each type of physiological trace, identifying end-tidal
+values for O2 and CO2, and phases of the cardiac and respiratory cycles.
+These data are then further processed via smoothing or convolution to
+create physiological regressors, which can be incorporated into a
+generalized linear model framework to explain portions of your fMRI
+signal attributed to physiological effects.</p>
+<h2 id="references">References</h2>
+<p>Bengtsson, J., Bake, B., Johansson, A., &amp; Bengtson, J. P. (2001).
+End-tidal to arterial oxygen tension difference as an oxygenation index.
+Acta Anaesthesiologica Scandinavica, 45(3), 357--363.
+<a href="https://doi.org/10.1034/j.1399-6576.2001.045003357.x">https://doi.org/10.1034/j.1399-6576.2001.045003357.x</a></p>
+<p>Birn, R. M., Diamond, J. B., Smith, M. A., &amp; Bandettini, P. A. (2006).
+Separating respiratory-variation-related fluctuations from
+neuronal-activity-related fluctuations in fMRI. NeuroImage, 31(4),
+1536--1548. <a href="https://doi.org/10.1016/j.neuroimage.2006.02.048">https://doi.org/10.1016/j.neuroimage.2006.02.048</a></p>
+<p>Birn, R. M., Smith, M. A., Jones, T. B., &amp; Bandettini, P. A. (2008). The
+respiration response function: The temporal dynamics of fMRI signal
+fluctuations related to changes in respiration. NeuroImage, 40(2),
+644--654. <a href="https://doi.org/10.1016/j.neuroimage.2007.11.059">https://doi.org/10.1016/j.neuroimage.2007.11.059</a></p>
+<p>Brosch, J. R., Talavage, T. M., Ulmer, J. L., &amp; Nyenhuis, J. A. (2002).
+Simulation of human respiration in fMRI with a mechanical model. IEEE
+Transactions on Biomedical Engineering, 49(7), 700--707.
+<a href="https://doi.org/10.1109/TBME.2002.1010854">https://doi.org/10.1109/TBME.2002.1010854</a></p>
+<p>Bulte, D. P., Chiarelli, P. A., Wise, R. G., &amp; Jezzard, P. (2007).
+Cerebral perfusion response to hyperoxia. Journal of Cerebral Blood Flow
+and Metabolism : Official Journal of the International Society of
+Cerebral Blood Flow and Metabolism, 27(1), 69--75.
+<a href="https://doi.org/10.1038/sj.jcbfm.9600319">https://doi.org/10.1038/sj.jcbfm.9600319</a></p>
+<p>Bulte, D., &amp; Wartolowska, K. (2017). Monitoring cardiac and respiratory
+physiology during FMRI. NeuroImage, 154, 81--91.
+<a href="https://doi.org/10.1016/j.neuroimage.2016.12.001">https://doi.org/10.1016/j.neuroimage.2016.12.001</a></p>
+<p>Caballero-Gaudes, C., &amp; Reynolds, R. C. (2017). Methods for cleaning the
+BOLD fMRI signal. NeuroImage, 154(December 2016), 128--149.
+<a href="https://doi.org/10.1016/j.neuroimage.2016.12.018">https://doi.org/10.1016/j.neuroimage.2016.12.018</a></p>
+<p>Chang, C., Cunningham, J. P., &amp; Glover, G. H. (2009). Influence of heart
+rate on the BOLD signal: The cardiac response function. NeuroImage,
+44(3), 857--869. <a href="https://doi.org/10.1016/j.neuroimage.2008.09.029">https://doi.org/10.1016/j.neuroimage.2008.09.029</a></p>
+<p>Chang, C., &amp; Glover, G. H. (2009). Relationship between respiration,
+end-tidal CO2, and BOLD signals in resting-state fMRI. NeuroImage,
+47(4), 1381--1393. <a href="https://doi.org/10.1016/j.neuroimage.2009.04.048">https://doi.org/10.1016/j.neuroimage.2009.04.048</a></p>
+<p>Dagli, M. S., Ingeholm, J. E., &amp; Haxby, J. V. (1999). Localization of
+cardiac-induced signal change in fMRI. NeuroImage, 9(4), 407--415.
+<a href="https://doi.org/10.1006/nimg.1998.0424">https://doi.org/10.1006/nimg.1998.0424</a></p>
+<p>Floyd, T. F., Clark, J. M., Gelfand, R., Detre, J. A., Ratcliffe, S.,
+Guvakov, D., ... Eckenhoff, R. G. (2003). Independent cerebral
+vasoconstrictive effects of hyperoxia and accompanying arterial
+hypocapnia at 1 ATA. Journal of Applied Physiology, 95(6), 2453--2461.
+<a href="https://doi.org/10.1152/japplphysiol.00303.2003">https://doi.org/10.1152/japplphysiol.00303.2003</a></p>
+<p>Glover, G. H., Li, T., &amp; Ress, D. (2000). Image‐based method for
+retrospective correction of physiological motion effects in fMRI:
+RETROICOR. Magnetic Resonance in Medicine, 44(1), 162--167.
+<a href="https://doi.org/10.1002/1522-2594(200007)44:1">https://doi.org/10.1002/1522-2594(200007)44:1</a>\&lt;162::AID-MRM23>3.0.CO;2-E</p>
+<p>McSwain, S. D., Hamel, D. S., Smith, P. B., Gentile, M. A., Srinivasan,
+S., Meliones, J. N., &amp; Cheifetz, I. M. (2010). End-tidal and arterial
+carbon dioxide measurements correlate across all levels of physiologic
+dead space. Respiratory Care, 55(3), 288--293.</p>
+<p>Raj, D., Anderson, A. W., &amp; Gore, J. C. (2001). Respiratory effects in
+human functional magnetic resonance imaging due to bulk susceptibility
+changes. Phys. Med. Biol, 46, 3340.</p>
+<p>Shmueli, K., van Gelderen, P., de Zwart, J. A., Horovitz, S. G.,
+Fukunaga, M., Jansma, J. M., &amp; Duyn, J. H. (2007). Low-frequency
+fluctuations in the cardiac rate as a source of variance in the
+resting-state fMRI BOLD signal. NeuroImage, 38(2), 306--320.
+<a href="https://doi.org/10.1016/j.neuroimage.2007.07.037">https://doi.org/10.1016/j.neuroimage.2007.07.037</a></p>
+<p>Wise, R. G., Ide, K., Poulin, M. J., &amp; Tracey, I. (2004). Resting
+fluctuations in arterial carbon dioxide induce significant low frequency
+variations in BOLD signal. NeuroImage, 21(4), 1652--1664.
+<a href="https://doi.org/10.1016/j.neuroimage.2003.11.025">https://doi.org/10.1016/j.neuroimage.2003.11.025</a></p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2020</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
