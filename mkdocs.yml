@@ -24,19 +24,6 @@ nav:
       - Team: community/team.md
       
 
-#markdown_extensions:
-#  - admonition
-#  - codehilite
-#  - footnotes
-#  - toc:
-#      permalink: "#"
-#  - pymdownx.emoji:
-#      emoji_index: !!python/name:materialx.emoji.twemoji
-#      emoji_generator: !!python/name:materialx.emoji.to_svg
-#  - pymdownx.superfences
-#  - pymdownx.snippets
-#  - markdown_include.include:
-#      base_path: docs
 
 #plugins:
 #  - toc-sidebar
