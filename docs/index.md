@@ -1,5 +1,5 @@
 # Home
-Welcome to the main documentation site for the physiopy community and python package! Please also check out the package's [Github Page](https://github.com/physiopy). For questions, you can always contact the project leader Stefano Moia at physiopy@gmail.com. 
+Welcome to the main documentation site for the physiopy community and python package! Please also check out the package's [Github Page](https://github.com/physiopy). For questions, you can always contact the project manager at [physiopy@gmail.com](mailto:physiopy@gmail.com). 
 
 <p align="center">
 <img src="https://github.com/physiopy/phys2bids/blob/master/docs/_static/physiopy_logo_1280x640.png?raw=true" width="400">
