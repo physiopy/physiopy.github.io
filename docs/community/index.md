@@ -6,5 +6,6 @@ We meet virtually on zoom the third Thursday of every month at 16:00 UTC. To joi
 
 
 ### How to get involved?
-To receive emails about our monthly meetings and planning surveys for topics to be covered please email physiopy@gmail.com and join our mattermost channel or check out our [gitter](https://gitter.im/physiopy/community) for the most up-to-date information.
+To receive emails about our monthly meetings and planning surveys for topics to be covered please email [physiopy@gmail.com](mailto:physiopy@gmail.com) and join our [mattermost channel](https://mattermost.brainhack.org/brainhack/channels/physiopy) on the Brainhack Global space for the most up-to-date information.
+
 
