@@ -16,13 +16,13 @@ study. For a more in-depth article on similar subject matter, please see
 Physiological monitoring is a key component of understanding
 physiological sources of signal variance in fMRI data. Monitoring
 physiology during scanning is critical to enable the characterization of
-a given subject\'s physiologic state at the time of the scan, and to
+a given subject's physiologic state at the time of the scan, and to
 track variations in physiology throughout the scan. With these data, we
 can more accurately model how these factors manifest in the fMRI signal
 time series.
 
-Physiological fluctuations can be identified as \"noise\" or as
-\"signals of interest\", depending on the research question of the
+Physiological fluctuations can be identified as "noise" or as
+"signals of interest", depending on the research question of the
 imaging experiment. For most fMRI experiments, the goal is to isolate
 signal fluctuations that are associated with a neural stimulus and the
 resulting hemodynamic response (Caballero-Gaudes et al. 2016). In these
@@ -42,7 +42,7 @@ method to monitor the subject and/or patient during the scan in
 real-time. Any sudden changes in the different aspects being monitored
 can help those in the control room identify if the person is under
 duress or complying with the scan protocol. Looking out for these
-changes is particularly helpful during an individual\'s first MRI scan,
+changes is particularly helpful during an individual's first MRI scan,
 when they may react poorly to the scan environment. In some protocols,
 tracking physiology in real-time can ensure that values stay within
 safe, IRB-approved limits.
@@ -76,14 +76,14 @@ pulsation artifacts. Low frequency changes in heart rate have also been
 modeled and shown to influence the fMRI time series (Shmueli et al.
 2007, Chang et al. 2009).
 
-**Breathing** is typically monitored using a \"respiratory belt\" around
-the participant\'s chest/diaphragm. The belt may be rigid or elastic,
+**Breathing** is typically monitored using a "respiratory belt" around
+the participant's chest/diaphragm. The belt may be rigid or elastic,
 using MR compatible force or pressure transducers to generate a signal
 proportional to the chest diameter. The optimal positioning of the belt
 depends on the device being used, however it is best to be fairly
 consistent in how the belt is worn throughout a study. In some labs,
 multiple belts are used to better capture different types of breathing
-styles (e.g., \"chest breathing\" versus \"belly breathing\"). Often a
+styles (e.g., "chest breathing" versus "belly breathing"). Often a
 belt is incorporated into the MRI scanner infrastructure, and these data
 can be collected by the scanner or recorded by a separate device. The
 peaks and troughs of the breathing trace are identified, which can
@@ -123,7 +123,7 @@ abbreviated as PETCO2 and PETO2) (Bengtsson et al. 2001, McSwain et al.
 that rests just below the nostrils) or face mask that is connected to a
 gas analyzer in the control room. The resulting data shows the
 fluctuations in CO2 and O2 across every breath; an algorithm must
-extract the \"end-tidal\" values.
+extract the "end-tidal" values.
 
 [What equipment is needed?](#howtocollectphysdata)
 -------------------------
