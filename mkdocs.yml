@@ -16,10 +16,10 @@ nav:
       - peakdet: libraries/peakdet.md
     - Best Practices: 
         - Why Collect Phys Data?: best_practices.md
-        - Setting up a Monitoring System: phys_set_up.md
-        - Acquring Physio Data: collect_phys.md
-        - Physio Processing: process_phys.md
-        - Physio/fMRI Analyses: analyses_phys.md
+        - Setting up a Monitoring System: best_practices/phys_set_up.md
+        - Acquring Physio Data: best_practices/collect_phys.md
+        - Physio Processing: best_practices/process_phys.md
+        - Physio/fMRI Analyses: best_practices/analyses_phys.md
     - Community:
       - Welcome: community/index.md
       - Getting Started: community/gettingstarted.md
