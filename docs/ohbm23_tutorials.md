@@ -27,7 +27,7 @@ In this tutorial, we will show how to set up physiological recording and how to 
 In this tutorial, we will show how to process physiological data (mainly respiration and cardiac pulse) and prepare models of physiological fluctuations.
 
 All materials for this tutorial are available in the following repository:
-[Code](https://github.com/smoia/ohbm2023noisetutorial)
+[Setup instructions, code, and link to data](https://github.com/smoia/ohbm2023noisetutorial)
 
 
 [One person’s noise is another person's signal: hands-on tutorial to model cerebrovascular reactivity in BOLD fMRI data -- Kristina Zvolanek](#physassignal)
