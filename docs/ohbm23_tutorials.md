@@ -15,10 +15,10 @@ Below are links to the materials to help you follow along with these tutorials.
 [Hands (and sensors!) on: a practical guide to acquiring your own physiological data -- Mary Miedema](#sensorsandbids)
 ----------------------------------------------------------------------------------------------------
 
-In this tutorial, we will show how to set up physiological recording and how to prepare such data for analysis, mainly by changing the format of proprietary file formats to [BIDS](https://bids.neuroimaging.io/) format.
+In this tutorial, we will show how to set up physiological recordings and how to prepare such data for analysis, mainly by changing the format of proprietary file formats to [BIDS](https://bids.neuroimaging.io/) format.
 
-[Docker](https://hub.docker.com/r/mmiedema/phys2bids_base)  
-[Sample Data](https://osf.io/3txqr/)
+All materials for this tutorial are available in the following repository:
+[Setup instructions, code, and link to data](https://github.com/m-miedema/ohbm2023phys2bidstutorial)
 
 
 [One person’s signal is another person's noise: hands-on tutorial to remove physiological fluctuations from MRI data -- Stefano Moia](#physasnoise)
