@@ -14,7 +14,7 @@ nav:
       - phys2bids: libraries/phys2bids.md
       - phys2denoise: libraries/phys2denoise.md
       - peakdet: libraries/peakdet.md
-    - Best Practices: best_practices.md
+    - Community Practices: best_practices.md
     - Community:
       - Welcome: community/index.md
       - Getting Started: community/gettingstarted.md
