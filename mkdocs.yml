@@ -2,10 +2,9 @@ site_name: Physiopy
 site_description: Physiopy
 site_author: The Physiopy developers
 site_url: https://physiopy.github.io
-#google_analytics: ['UA-170131052-1', 'www.nipreps.org']
 
 # Copyright
-copyright: Copyright &copy; 2020
+copyright: Copyright &copy; 2020-2024, The Physiopy Community
 
 nav:
     - Home: index.md
@@ -14,7 +13,7 @@ nav:
       - phys2bids: libraries/phys2bids.md
       - phys2denoise: libraries/phys2denoise.md
       - peakdet: libraries/peakdet.md
-    - Best Practices: best_practices.md
+    - Community Practices: https://physiopy-community-guidelines.readthedocs.io/en/latest/index.html
     - Community:
       - Welcome: community/index.md
       - Getting Started: community/gettingstarted.md
