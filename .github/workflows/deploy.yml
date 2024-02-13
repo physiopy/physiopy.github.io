@@ -19,6 +19,8 @@ jobs:
         python-version: 3.8
     - name: Setup Git & Install dependencies
       run: |
+        git config --global user.email "e.urunuela@bcbl.eu"
+        git config --global user.name "eurunuela"
         python -m pip install --upgrade pip
         pip install -r mkdocs/requirements.txt
     - uses: actions/checkout@v2
