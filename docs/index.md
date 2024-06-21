@@ -6,7 +6,7 @@ Welcome to the main documentation site for the physiopy community and python pac
 </p>
 
 ## Who are we?
-We are the physiopy development team consisting of an international group of volunteers. You can learn more about us and how to connect with us by visiting the [*Community*](/community) page. Contributions are also very much welcomed! Check out the [*Contributor Guide*](/contributors-guide) tab.
+We are the physiopy development team consisting of an international group of volunteers. You can learn more about us and how to connect with us by visiting the [*Community*](/community) page. Contributions are also very much welcomed! Check out the [*Contributor Guide*](community/contributor-guide/) tab.
 
 ## What is the importance of physiological data collection and its impact on MRI?
 
