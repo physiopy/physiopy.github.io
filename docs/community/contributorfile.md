@@ -1,7 +1,7 @@
 [How to contribute to `physiopy`](#contributorfile)
 ===============================
 
-Welcome to the `physiopy` organisation! It's great news that you're
+Welcome to the `physiopy` organization! It's great news that you're
 thinking about contributing!
 
 Working with many people from many different places is great, but
@@ -37,14 +37,14 @@ in this guide? Jump to the following sections:
 -   [Reviewing PRs](#reviewing)
 -   [Style Guide](#styling)
 -   [Automatic Testing](#testing)
--   [Recognizing contributors](#recognising)
+-   [Recognizing contributors](#recognizing)
 
 [Aims of physiopy](#aims)
 ============================
 
 `physiopy` is a **very** young project developed by a bunch of
 researchers from the two different sides of the Atlantic Ocean (for
-now). Our main goal is to help collect, analyse and share physiological
+now). Our main goal is to help collect, analyze and share physiological
 data, interfacing with (MRI) neuroimaging. We're trying to do so by:
 
 1.  Writing packages to make a user-friendly pipeline to deal with
@@ -150,13 +150,13 @@ start!
 ------------------------------------------
 
 At `physiopy`, we use Issues and Milestones to keep track of and
-organise our workflow.  **Issues** describe pieces of work that need to
+organize our workflow.  **Issues** describe pieces of work that need to
 be completed to move the project forwards. We try to keep them as simple
 and clear as possible: an issue should describe a unitary, possibly
 small piece of work (unless it's about refactoring). Don't be scared of
 opening many issues at once, if it makes sense! Just check that what
 you're proposing is not listed in a previous issue (open or closed) yet
-(we don't like doubles). Issues get labelled. That helps the
+(we don't like doubles). Issues get labeled. That helps the
 contributors to know what they're about. Check the label list to know
 what types are there, and use them accordingly! Issues can also be
 **assigned**. If you want to work on an assigned issue, ask permission
@@ -214,7 +214,7 @@ right PR labels**!
     from closing them - but help newcomers closing them.
 -   Hacktoberfest: Dedicated to the hacktoberfest event, so that people
     can help and feel good about it (and show it with a T-shirt!).
-    **Such commits will not be recognised in the all-contributor table,
+    **Such commits will not be recognized in the all-contributor table,
     unless otherwise specified**.
 -   Help wanted: Extra attention is needed here! It's a good place to
     have a look!
@@ -234,7 +234,7 @@ right PR labels**!
     means that the PR is breaking backward compatibility.
 -   Minormod: These PRs call for a new minor release (0.+1.0). This
     means that the PR is **not** breaking backward compatibility.
--   BugFIX: These PRs close an issue labelled `bug`. They also increase
+-   BugFIX: These PRs close an issue labeled `bug`. They also increase
     the semantic versioning for fixes (+0.0.1).
 -   Internal: This PR contains changes to the internal API. It won\'t
     trigger a release, but it will be reported in the changelog.
@@ -427,7 +427,7 @@ reviewing PRs:
 Before approving and/or merging PRs, be sure that:
 
 -   All the tests in CircleCI/Azure pass without errors.
--   Prefereably, codecov checks pass as well. If they don\'t, discuss
+-   Preferably, codecov checks pass as well. If they don\'t, discuss
     what to do.
 -   The title describes the content of the PR clearly enough to be
     meaningful on its own - remember that it will appear in the version
@@ -440,7 +440,7 @@ Before approving and/or merging PRs, be sure that:
 At `physiopy` we use the *Assignees* section of a PR to mark the
 **main reviewer** for that PR. The main reviewer is the primary person
 responsible **for the quality of the repository and its next version release**,
- as well as **for the behaviour of the other reviewers**.
+ as well as **for the behavior of the other reviewers**.
 
 ***The main reviewer takes care of the reviewing process of the PR, in particular:***
 
@@ -558,7 +558,7 @@ tests we use are:
         like we expect it to be. They are run on real or mock data, and
         call the program itself or a function.
 
-[Recognising contributors](#recognising)
+[Recognizing contributors](#recognizing)
 ------------------------
 
 We welcome and recognize [all

@@ -1,0 +1,31 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-ast
+      - id: check-added-large-files
+      - id: check-case-conflict
+  - repo: https://github.com/psf/black
+    rev: 24.4.2
+    hooks:
+      - id: black
+        files: ^tools/(?!schemacode)
+        args: ["--verbose"]
+      - id: black
+        name: "black bidsschematools"
+        files: tools/schemacode
+        args: ["--config", "tools/schemacode/pyproject.toml", "--verbose"]
+  - repo: https://github.com/pyCQA/flake8
+    rev: 7.1.0
+    hooks:
+      - id: flake8
+        args: [--config=tools/schemacode/setup.cfg]
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.3.0
+    hooks:
+      - id: codespell
+        args: ["--config=.codespellrc", "--dictionary=-", "--dictionary=.codespell_dict"]

@@ -6,7 +6,7 @@ First of all: thank you!
 Contributions can be made in different ways, not only code! As we follow
 the
 [all-contributors](https://github.com/all-contributors/all-contributors)
-specification, any contribution will be recognised accordingly.
+specification, any contribution will be recognized accordingly.
 
 Follow these steps to get started:
 
