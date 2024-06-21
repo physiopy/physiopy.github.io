@@ -2,18 +2,45 @@ site_name: Physiopy
 site_description: Physiopy
 site_author: The Physiopy developers
 site_url: https://physiopy.github.io
+repo_url: https://github.com/physiopy/physiopy.github.io
+repo_name: physiopy/physiopy.github.io
 
 # Copyright
 copyright: Copyright &copy; 2020-2024, The Physiopy Community
 
+# Set up theme with Material for Mkdocs
+theme:
+  name: material
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.sections
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Content of the website
 nav:
     - Home: index.md
     - Libraries:
-      - Libraries: libraries.md
       - phys2bids: libraries/phys2bids.md
       - phys2denoise: libraries/phys2denoise.md
       - peakdet: libraries/peakdet.md
-    - Community Practices: https://physiopy-community-guidelines.readthedocs.io/en/latest/index.html
+    - Community Practices: 
+      - Community Practices: https://physiopy-community-guidelines.readthedocs.io/en/latest/index.html
     - Community:
       - Welcome: community/index.md
       - Getting Started: community/gettingstarted.md
@@ -22,7 +49,8 @@ nav:
       - Other Tools: community/other_tools.md
       - Code of Conduct: community/CODE_OF_CONDUCT.md
       - Team: community/team.md
-    - OHBM 2023 Tutorials: ohbm23_tutorials.md
+    - Tutorials:
+      - OHBM 2023 Tutorials: ohbm23_tutorials.md
       
 
 
