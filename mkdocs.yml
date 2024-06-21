@@ -2,26 +2,72 @@ site_name: Physiopy
 site_description: Physiopy
 site_author: The Physiopy developers
 site_url: https://physiopy.github.io
+repo_url: https://github.com/physiopy/physiopy.github.io
+repo_name: physiopy/physiopy.github.io
 
 # Copyright
 copyright: Copyright &copy; 2020-2024, The Physiopy Community
 
+# Set up theme with Material for Mkdocs
+theme:
+  name: material
+  favicon: assets/images/favicon.png
+  logo: assets/images/logo.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.sections
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Content of the website
 nav:
     - Home: index.md
     - Libraries:
       - phys2bids: libraries/phys2bids.md
       - phys2denoise: libraries/phys2denoise.md
       - peakdet: libraries/peakdet.md
-    - Community Practices: https://physiopy-community-guidelines.readthedocs.io/en/latest/index.html
+    - Contributor Guide:
+      - Welcome: contributors-guide/index.md
+      - Recognizing contributions: contributors-guide/recognition.md
+      - Getting started: contributors-guide/getting-started.md
+      - Types of contribution: contributors-guide/contribution-types.md
+      - Contributing to the codebase:
+        - Digging into the code: contributors-guide/codebase/index.md
+        - Opening issues: contributors-guide/codebase/opening-issues.md
+        - Opening PRs: contributors-guide/codebase/opening-prs.md
+        - Reviewing PRs: contributors-guide/codebase/reviewing-prs.md
+        - Testing and code coverage: contributors-guide/codebase/tests-code-cov.md
+        - Roles and permissions: contributors-guide/codebase/roles-permission.md
+        - Style guide: contributors-guide/codebase/style-guide.md
+        - Labels: contributors-guide/codebase/labels.md
+        - Under the hood: contributors-guide/codebase/plug-ins.md
+      - Contributing to the documentation:
+        - Welcome: contributors-guide/documentation/index.md
+        - Building documentation: contributors-guide/documentation/building.md
+        - Adding to Community Practices: contributors-guide/documentation/community-practices.md
+    - Community Practices: 
+      - Community Practices: https://physiopy-community-guidelines.readthedocs.io/en/latest/index.html
     - Community:
       - Welcome: community/index.md
-      - Getting Started: community/gettingstarted.md
-      - Contributor Guide: community/contributor-guide.md 
       - Open Datasets: community/open_datasets.md
       - Other Tools: community/other_tools.md
       - Code of Conduct: community/CODE_OF_CONDUCT.md
       - Team: community/team.md
-    - OHBM 2023 Tutorials: ohbm23_tutorials.md
+    - Tutorials:
+      - OHBM 2023 Tutorials: ohbm23_tutorials.md
       
 
 
