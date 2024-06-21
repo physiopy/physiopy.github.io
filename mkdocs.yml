@@ -39,13 +39,13 @@ nav:
       - phys2bids: libraries/phys2bids.md
       - phys2denoise: libraries/phys2denoise.md
       - peakdet: libraries/peakdet.md
-    - Contributors Guide:
+    - Contributor Guide:
       - Welcome: contributors-guide/index.md
       - Recognizing contributions: contributors-guide/recognition.md
       - Getting started: contributors-guide/getting-started.md
       - Types of contribution: contributors-guide/contribution-types.md
       - Contributing to the codebase:
-        - Welcome: contributors-guide/codebase/index.md
+        - Digging into the code: contributors-guide/codebase/index.md
         - Opening issues: contributors-guide/codebase/opening-issues.md
         - Opening PRs: contributors-guide/codebase/opening-prs.md
         - Reviewing PRs: contributors-guide/codebase/reviewing-prs.md
@@ -53,7 +53,7 @@ nav:
         - Roles and permissions: contributors-guide/codebase/roles-permission.md
         - Style guide: contributors-guide/codebase/style-guide.md
         - Labels: contributors-guide/codebase/labels.md
-        - Plug-ins: contributors-guide/codebase/plug-ins.md
+        - Under the hood: contributors-guide/codebase/plug-ins.md
       - Contributing to the documentation:
         - Welcome: contributors-guide/documentation/index.md
         - Building documentation: contributors-guide/documentation/building.md

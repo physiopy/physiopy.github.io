@@ -1,4 +1,4 @@
-## Types of Contributions
+Not sure what you'd like to contribute? You could consider...
 
 ### Contributing with small documentation changes
 
