@@ -43,6 +43,7 @@ nav:
       - Welcome: contributors-guide/index.md
       - Recognizing contributions: contributors-guide/recognition.md
       - Getting started: contributors-guide/getting-started.md
+      - Types of contribution: contributors-guide/contribution-types.md
       - Contributing to the codebase:
         - Welcome: contributors-guide/codebase/index.md
         - Opening issues: contributors-guide/codebase/opening-issues.md
@@ -61,8 +62,6 @@ nav:
       - Community Practices: https://physiopy-community-guidelines.readthedocs.io/en/latest/index.html
     - Community:
       - Welcome: community/index.md
-      - Getting Started: community/gettingstarted.md
-      - Contributor Guide: community/contributor-guide.md 
       - Open Datasets: community/open_datasets.md
       - Other Tools: community/other_tools.md
       - Code of Conduct: community/CODE_OF_CONDUCT.md
