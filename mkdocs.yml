@@ -9,7 +9,6 @@ copyright: Copyright &copy; 2020-2024, The Physiopy Community
 nav:
     - Home: index.md
     - Libraries:
-      - Libraries: libraries.md
       - phys2bids: libraries/phys2bids.md
       - phys2denoise: libraries/phys2denoise.md
       - peakdet: libraries/peakdet.md
