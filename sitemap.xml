@@ -26,21 +26,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://physiopy.github.io/community/contributor-guide/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://physiopy.github.io/community/contributorfile/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://physiopy.github.io/community/gettingstarted/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://physiopy.github.io/community/members/</loc>
          <lastmod>2024-07-23</lastmod>
          <changefreq>daily</changefreq>
@@ -57,6 +42,86 @@
     </url>
     <url>
          <loc>https://physiopy.github.io/community/team/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/contribution-types/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/getting-started/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/recognition/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/codebase/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/codebase/labels/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/codebase/opening-issues/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/codebase/opening-prs/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/codebase/plug-ins/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/codebase/reviewing-prs/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/codebase/roles-permission/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/codebase/style-guide/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/codebase/tests-code-cov/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/documentation/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/documentation/building/</loc>
+         <lastmod>2024-07-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/contributors-guide/documentation/community-practices/</loc>
          <lastmod>2024-07-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
