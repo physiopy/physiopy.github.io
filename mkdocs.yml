@@ -39,12 +39,29 @@ nav:
       - phys2bids: libraries/phys2bids.md
       - phys2denoise: libraries/phys2denoise.md
       - peakdet: libraries/peakdet.md
+    - Contributor Guide:
+      - Welcome: contributors-guide/index.md
+      - Recognizing contributions: contributors-guide/recognition.md
+      - Getting started: contributors-guide/getting-started.md
+      - Types of contribution: contributors-guide/contribution-types.md
+      - Contributing to the codebase:
+        - Digging into the code: contributors-guide/codebase/index.md
+        - Opening issues: contributors-guide/codebase/opening-issues.md
+        - Opening PRs: contributors-guide/codebase/opening-prs.md
+        - Reviewing PRs: contributors-guide/codebase/reviewing-prs.md
+        - Testing and code coverage: contributors-guide/codebase/tests-code-cov.md
+        - Roles and permissions: contributors-guide/codebase/roles-permission.md
+        - Style guide: contributors-guide/codebase/style-guide.md
+        - Labels: contributors-guide/codebase/labels.md
+        - Under the hood: contributors-guide/codebase/plug-ins.md
+      - Contributing to the documentation:
+        - Welcome: contributors-guide/documentation/index.md
+        - Building documentation: contributors-guide/documentation/building.md
+        - Adding to Community Practices: contributors-guide/documentation/community-practices.md
     - Community Practices: 
       - Community Practices: https://physiopy-community-guidelines.readthedocs.io/en/latest/index.html
     - Community:
       - Welcome: community/index.md
-      - Getting Started: community/gettingstarted.md
-      - Contributor Guide: community/contributor-guide.md 
       - Open Datasets: community/open_datasets.md
       - Other Tools: community/other_tools.md
       - Code of Conduct: community/CODE_OF_CONDUCT.md

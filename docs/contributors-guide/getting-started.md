@@ -1,35 +1,44 @@
 # Getting Started!
-==========================
 
-First of all: thank you!
+First of all: thank you and welcome to the `physiopy` organisation! It's great news that you're thinking about contributing!
+
+Working with many people from many different places is great, but
+sometimes this means that code can become messy due to the many
+different ways a contribution can be made. For this reason, we have set
+up some guidelines for contributions - to help you get involved ASAP! If
+you lack knowledge in python development / github use / physiological
+data handling, don't be scared! Try to jump in anyway. Most of the
+original contributors learned these things exactly this way - jumping in
+and hoping to fall in the right way without breaking too many bones. 
 
 Contributions can be made in different ways, not only code! As we follow
 the
 [all-contributors](https://github.com/all-contributors/all-contributors)
 specification, any contribution will be recognised accordingly.
 
-Follow these steps to get started:
+## First steps
 
-1.  Have a look at the [contributor guide](contributorfile.html) page as
-    well as the [code of conduct](conduct.html).
+Follow these three simple steps to get started:
+
+1.  Have a look at our [code of conduct](/community/CODE_OF_CONDUCT).
 2.  Make sure that you have a GitHub account. You can set up a [free
     GitHub account](https://github.com/); here are some
     [instructions](https://help.github.com/articles/signing-up-for-a-new-github-account).
 3.  If you intend to contribute code and/or use the `physiopy` packages
     in any way, check that you have `git` and `pip` installed on your
-    system. Then install the package as a developer. This will let you
+    system. Then, follow the instructions below to install the package you are working on as a developer. This will let you
     run the program with the latest modifications, without requiring to
     re-install it every time.
-
-### Note
-The following instructions are provided assuming that python 3 is
-**not** your default version of python. If it is, you might need to use
-`pip` instead of `pip3`, although some OSs do adopt `pip3` anyway. If
-you want to check, type `python --version` in a terminal.
 
 
 Linux, Mac, and Windows developer installation
 ----------------------------------------------
+
+Note: 
+The following instructions are provided assuming that python 3 is
+**not** your default version of python. If it is, you might need to use
+`pip` instead of `pip3`, although some OSs do adopt `pip3` anyway. If
+you want to check, type `python --version` in a terminal.
 
 Be sure to have `git` and `pip` installed. Fork the phys2bids repository
 in GitHub, then open a terminal and run the following code to clone the
@@ -119,5 +128,7 @@ working to fix it (see
 [here](https://docs.pytest.org/en/latest/skipping.html#xfail-mark-test-functions-as-expected-to-fail).
 However, if you do encounter any other error, check that you have all
 the extra dependencies installed and their version meets `phys2bids`
-requirements. Contact us on
-[gitter](https://gitter.im/physiopy/community) if you need help!
+requirements.
+
+## Where to go next
+This section needs to be added.
