@@ -2,152 +2,126 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://physiopy.github.io/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/best_practices/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/ohbm23_tutorials/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
+    </url>
+    <url>
+         <loc>https://physiopy.github.io/repronim24_tutorials/</loc>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/community/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/community/CODE_OF_CONDUCT/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/community/members/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/community/open_datasets/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/community/other_tools/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/community/team/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/contribution-types/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/getting-started/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/recognition/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/codebase/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/codebase/labels/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/codebase/opening-issues/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/codebase/opening-prs/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/codebase/plug-ins/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/codebase/reviewing-prs/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/codebase/roles-permission/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/codebase/style-guide/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/codebase/tests-code-cov/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/documentation/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/documentation/building/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/contributors-guide/documentation/community-practices/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/devs/releases/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/devs/versions/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/libraries/peakdet/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/libraries/phys2bids/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
     <url>
          <loc>https://physiopy.github.io/libraries/phys2denoise/</loc>
-         <lastmod>2024-07-23</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-11-01</lastmod>
     </url>
 </urlset>
