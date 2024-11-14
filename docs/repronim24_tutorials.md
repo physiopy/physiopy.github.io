@@ -1,7 +1,9 @@
 [Tutorials for the ReproNim November 1st 2024 webinar](#repronim24_tutorials)
 =========================================================================
 
-Physiopy packages are featured as part of the ReproNim webinar, [The Physiopy Community: working towards accessible and reproducible physiological data integration in neuroimaging studies](https://www.repronim.org/webinar-series.html).
+Physiopy packages and ongoing projects are featured as part of the [ReproNim webinar](https://www.repronim.org/webinar-series.html), *The Physiopy Community: working towards accessible and reproducible physiological data integration in neuroimaging studies*.
+
+The link to the presentation can now be found on the [ReproNim youtube channel](https://www.youtube.com/watch?v=4euIogu-TnA) !
 
 The slides for the intro and outro of the presentation presented by Stefano Moia can be found [here](https://slides.com/ephraim24/physiopy-repronim24).
 
