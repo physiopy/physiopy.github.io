@@ -9,7 +9,7 @@ up some guidelines for contributions - to help you get involved ASAP! If
 you lack knowledge in python development / github use / physiological
 data handling, don't be scared! Try to jump in anyway. Most of the
 original contributors learned these things exactly this way - jumping in
-and hoping to fall in the right way without breaking too many bones. 
+and hoping to fall in the right way without breaking too many bones.
 
 Contributions can be made in different ways, not only code! As we follow
 the
@@ -34,7 +34,7 @@ Follow these three simple steps to get started:
 Linux, Mac, and Windows developer installation
 ----------------------------------------------
 
-Note: 
+Note:
 The following instructions are provided assuming that python 3 is
 **not** your default version of python. If it is, you might need to use
 `pip` instead of `pip3`, although some OSs do adopt `pip3` anyway. If

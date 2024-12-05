@@ -23,7 +23,7 @@ theme:
     # Palette toggle for light mode
     - scheme: default
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -38,7 +38,7 @@ nav:
     - Libraries:
       - phys2bids: libraries/phys2bids.md
       - phys2denoise: libraries/phys2denoise.md
-      - peakdet: libraries/peakdet.md
+      - prep4phys: libraries/prep4phys.md
     - Contributor Guide:
       - Welcome: contributors-guide/index.md
       - Recognizing contributions: contributors-guide/recognition.md
@@ -58,7 +58,7 @@ nav:
         - Welcome: contributors-guide/documentation/index.md
         - Building documentation: contributors-guide/documentation/building.md
         - Adding to Community Practices: contributors-guide/documentation/community-practices.md
-    - Community Practices: 
+    - Community Practices:
       - Community Practices: https://physiopy-community-guidelines.readthedocs.io/en/latest/index.html
     - Community:
       - Welcome: community/index.md
@@ -69,6 +69,6 @@ nav:
     - Tutorials:
       - OHBM 2023 Tutorials: ohbm23_tutorials.md
       - ReproNim 2024 Tutorials: repronim24_tutorials.md
-      
+
 
 

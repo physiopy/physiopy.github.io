@@ -1,15 +1,15 @@
 ## Team
 
-**Project Leader(s):** 
+**Project Leader(s):**
 [Stefano Moia](https://github.com/smoia) - Postdoc researcher at the École Polytechnique Fédérale de Lausanne
 
 **Contributors:**
 Thanks goes to these wonderful people for all their help (see [emoji key](https://allcontributors.org/docs/en/emoji-key))!
 - [Phys2bids Contributors](https://github.com/physiopy/phys2bids#contributors-)
-- [Peakdet Contributors](https:https://hackmd.io/-M7a4dusTx6WBdN5WNaamg?both#//github.com/physiopy/peakdet#contributors-)
+- [Prep4Phys Contributors](https://github.com/physiopy/prep4phys#contributors-)
 - [Phys2denoise Contributors](https://github.com/physiopy/phys2denoise#contributors-)
 
-This could be you! We welcome all skill levels with an interest in physiological data collection. Join a meeting and figure out how you can get involved, or check out the contributions guide. 
+This could be you! We welcome all skill levels with an interest in physiological data collection. Join a meeting and figure out how you can get involved, or check out the contributions guide.
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification, meaning that contributions of any kind are recognized as such.
 
@@ -33,12 +33,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/vinferrer"><img src="https://avatars2.githubusercontent.com/u/38909338?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vicente Ferrer</b></sub></a><br /><a href="https://github.com/physiopy/phys2bids/issues?q=author%3Avinferrer" title="Bug reports">🐛</a> <a href="https://github.com/physiopy/phys2bids/commits?author=vinferrer" title="Code">💻</a> <a href="https://github.com/physiopy/phys2bids/commits?author=vinferrer" title="Documentation">📖</a> <a href="https://github.com/physiopy/phys2bids/pulls?q=is%3Apr+reviewed-by%3Avinferrer" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/physiopy/phys2bids/commits?author=vinferrer" title="Tests">⚠️</a></td>
 </tr>
   <tr>
-    <td align="center"><a href="https://github.com/goodalse2019"><img src="https://avatars.githubusercontent.com/u/60117796?v=4" width="100px;" alt=""/><br /><sub><b>Sarah Goodale</b></sub></a><br /><a href="https://github.com/physiopy/physiopy.github.io/commits?author=goodalse2019" title="Documentation">📖</a><a href="#mentoring-goodalse2019" title="Mentoring">🧑‍🏫</a><a href="#eventOrganizing-goodalse2019" title="Mentoring">📋</a></td>   
+    <td align="center"><a href="https://github.com/goodalse2019"><img src="https://avatars.githubusercontent.com/u/60117796?v=4" width="100px;" alt=""/><br /><sub><b>Sarah Goodale</b></sub></a><br /><a href="https://github.com/physiopy/physiopy.github.io/commits?author=goodalse2019" title="Documentation">📖</a><a href="#mentoring-goodalse2019" title="Mentoring">🧑‍🏫</a><a href="#eventOrganizing-goodalse2019" title="Mentoring">📋</a></td>
     <td align="center"><a href="https://github.com/yarikoptic"><img src="https://avatars.githubusercontent.com/u/39889?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yaroslav Halchenko</b></sub></a><br /><a href="#infra-yarikoptic" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     <td align="center"><a href="http://soichi.us"><img src="https://avatars3.githubusercontent.com/u/923896?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Soichi Hayashi</b></sub></a><br /><a href="https://github.com/physiopy/phys2bids/issues?q=author%3Asoichih" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/viacovella"><img src="https://avatars1.githubusercontent.com/u/1639782?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vittorio Iacovella</b></sub></a><br /><a href="https://github.com/physiopy/phys2bids/commits?author=viacovella" title="Code">💻</a></td>
 </tr>
-  <tr>      
+  <tr>
       <td align="center"><a href="https://github.com/sangfrois"><img src="https://avatars0.githubusercontent.com/u/38385719?v=4?s=100" width="100px;" alt=""/><br /><sub><b>François Lespinasse</b></sub></a><br /><a href="https://github.com/physiopy/phys2bids/commits?author=sangfrois" title="Code">💻</a> <a href="https://github.com/physiopy/phys2bids/commits?author=sangfrois" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://github.com/NevMagi"><img src="https://avatars.githubusercontent.com/u/76997761?v=4" width="100px;" alt=""/><br /><sub><b>Neville Magielse</b></sub></a><br /><a href="https://github.com/physiopy/phys2bids/commits?author=NevMagi" title="Documentation">📖</a></td>
     <td align="center"><a href="http://rossmarkello.com"><img src="https://avatars0.githubusercontent.com/u/14265705?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ross Markello</b></sub></a><br /><a href="https://github.com/physiopy/phys2bids/issues?q=author%3Armarkello" title="Bug reports">🐛</a> <a href="https://github.com/physiopy/phys2bids/commits?author=rmarkello" title="Code">💻</a> <a href="#content-rmarkello" title="Content">🖋</a> <a href="#ideas-rmarkello" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-rmarkello" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/physiopy/phys2bids/pulls?q=is%3Apr+reviewed-by%3Armarkello" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/physiopy/phys2bids/commits?author=rmarkello" title="Tests">⚠️</a> <a href="#mentoring-rmarkello" title="Mentoring">🧑‍🏫</a></td>
