@@ -5,7 +5,7 @@ Physiopy packages and ongoing projects are featured as part of the [ReproNim web
 
 The link to the presentation can now be found on the [ReproNim youtube channel](https://www.youtube.com/watch?v=4euIogu-TnA) !
 
-The slides for the intro and outro of the presentation presented by Stefano Moia can be found [here](https://slides.com/ephraim24/physiopy-repronim24).
+The slides for the intro and outro of the presentation presented by Stefano Moia can be found [here](https://slides.com/smoia/physiopy-repronim24).
 
 The slides for the Community practices and the BIDS Extension Proposal parts presented by Inês Esteves, Rebecca Clemens and Mary Miedema can be found [here](https://docs.google.com/presentation/d/1tZ2BToHFfEPJd2BPZKGGSul_xHcMYtFOskIDm2FmOTc/edit?usp=sharing).
 
