@@ -1,13 +1,27 @@
 ## Team
 
-**Project Leader(s):** 
-[Stefano Moia](https://github.com/smoia) - Postdoc researcher at the École Polytechnique Fédérale de Lausanne
+### Steering Committee
+
+#### Community manager(s):
+[Mary Miedema]() - affiliation
+[Rachael Stickland]() - affiliation
+
+#### Documentation seat(s)
+[César Caballero-Gaudes]() - Basque Center on Cognition, Brain and Language
+[Sarah Goodale]() - affiliation
+
+#### Development seat(s)
+[Stefano Moia](https://github.com/smoia) - Postdoc researcher at Maastricht University
+
+
 
 **Contributors:**
 Thanks goes to these wonderful people for all their help (see [emoji key](https://allcontributors.org/docs/en/emoji-key))!
 - [Phys2bids Contributors](https://github.com/physiopy/phys2bids#contributors-)
-- [Peakdet Contributors](https:https://hackmd.io/-M7a4dusTx6WBdN5WNaamg?both#//github.com/physiopy/peakdet#contributors-)
+- [Peakdet Contributors](https://github.com/physiopy/peakdet#contributors-)
+- [Prep4phys Contributors](https://github.com/physiopy/prep4phys#contributors-)
 - [Phys2denoise Contributors](https://github.com/physiopy/phys2denoise#contributors-)
+- [PhysioQC Contributors](https://github.com/physiopy/physioqc#contributors-)
 
 This could be you! We welcome all skill levels with an interest in physiological data collection. Join a meeting and figure out how you can get involved, or check out the contributions guide. 
 

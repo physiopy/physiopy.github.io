@@ -1,12 +1,20 @@
-# Peakdet
+# Peakdet & prep4phys
+
+!!! warning
+
+`peakdet` is being superseded by [`prep4phys`](https://github.com/physiopy/prep4phys), that maintains the same functionalities as `peakdet v0.5.2` and expands them.
+While currently `peakdet` is still maintained, we might revert it to its original version before Physiopy's involvement.
+Please use `prep4phys` instead, and if you encounter bugs, let us know!
+
+
 ### A toolbox for physiological peak detection analyses
 
-This package `peakdet` is designed for use in the reproducible processing and analysis of physiological data, like those collected from respiratory belts, pulse photoplethysmography, or electrocardiogram (ECG/EKG) monitors. For github repository, follow this [link](https://github.com/physiopy/peakdet)
+`peakdet` is designed for use in the reproducible processing and analysis of physiological data, like those collected from respiratory belts, pulse photoplethysmography, or electrocardiogram (ECG/EKG) monitors. For github repository, follow this [link](https://github.com/physiopy/peakdet)
 
 ### Overview
 Physiological data are messy and prone to artifact (e.g., movement in respiration and pulse, ectopic beats in ECG). Despite leaps and bounds in recent algorithms for processing these data there still exists a need for manual inspection to ensure such artifacts have been appropriately removed. Because of this manual intervention step, understanding exactly what happened to go from "raw" data to "analysis-ready" data can often be difficult or impossible.
 
-This toolbox, `peakdet`, aims to provide a set of tools that will work with a variety of input data to reproducibly generate manually-corrected, analysis- ready physiological data. If you'd like more information about the package, including how to install it and some example instructions on its use, check out our [documentation](https://peakdet.readthedocs.io/en/latest/)
+`peakdet` aims to provide a set of tools that will work with a variety of input data to reproducibly generate manually-corrected, analysis- ready physiological data. If you'd like more information about the package, including how to install it and some example instructions on its use, check out our [documentation](https://peakdet.readthedocs.io/en/latest/)
 
 ### Installation and User Guide
 Follow this for more information on [installation and setup](https://peakdet.readthedocs.io/en/latest/index.html) of `peakdet` as well as ways to get involved in the development and testing of this package. 
@@ -14,4 +22,6 @@ Follow this for more information on [installation and setup](https://peakdet.rea
 The [user guide](https://peakdet.readthedocs.io/en/latest/usage.html) also provided at the link above discusses the reproducibility of loading and saving data, as well as, the processing and editing of the physiological data.
 
 ### License Information
-This codebase is licensed under the Apache License, Version 2.0. The full license can be found in the [LICENSE](https://github.com/physiopy/peakdet/blob/master/LICENSE) file in the peakdet distribution. You may also obtain a copy of the license [here](http://www.apache.org/licenses/LICENSE-2.0).
+Copyright 2016-2020 Ross Markello, 2020-2025 The Physiopy community.
+
+Peakdet codebase is licensed under the Apache License, Version 2.0. The full license can be found in the [LICENSE](https://github.com/physiopy/peakdet/blob/master/LICENSE) file in the peakdet distribution. You may also obtain a copy of the license [here](http://www.apache.org/licenses/LICENSE-2.0).

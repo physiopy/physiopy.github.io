@@ -6,8 +6,6 @@ This project `phys2denoise` is currently under development, see [link](https://g
 This project follows the [all-contributers](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 ### License Information
-Copyright 2019, The phys2denoise community.
+Copyright 2019-2025, The Physiopy community.
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License [here](http://www.apache.org/licenses/LICENSE-2.0).
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+Phys2bids codebase is licensed under the Apache License, Version 2.0. The full license can be found in the [LICENSE](https://github.com/physiopy/phys2denoise/blob/master/LICENSE) file in the phys2denoise distribution. You may also obtain a copy of the license [here](http://www.apache.org/licenses/LICENSE-2.0).
