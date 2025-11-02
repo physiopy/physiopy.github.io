@@ -3,16 +3,30 @@
 ### Steering Committee
 
 #### Community manager(s):
-[Mary Miedema]() - affiliation
-[Rachael Stickland]() - affiliation
+[Mary Miedema]() - McGill University
+
+[Rachael Stickland]() - University of Birmingham
 
 #### Documentation seat(s)
 [César Caballero-Gaudes]() - Basque Center on Cognition, Brain and Language
-[Sarah Goodale]() - affiliation
+
+[Sarah Goodale]() - Vanderbilt University
 
 #### Development seat(s)
-[Stefano Moia](https://github.com/smoia) - Postdoc researcher at Maastricht University
+[Stefano Moia](https://github.com/smoia) - Maastricht University
 
+
+### Advisory Board
+
+#### Chair
+[Molly G. Bright](https://www.brightlab.northwestern.edu/bright/) - Northwestern University
+
+#### Members
+[Joana Pinto](https://www.linkedin.com/in/joanacspinto/?originalSubdomain=de) - Siemens Healthineers
+
+[Catie Chang](https://engineering.vanderbilt.edu/bio/?pid=catie-chang) - Vanderbilt Unviersity
+
+[Ian D. Driver](https://profiles.cardiff.ac.uk/staff/driveri) - Cardiff Unviersity
 
 
 **Contributors:**
