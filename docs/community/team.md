@@ -5,7 +5,7 @@
 #### Community manager(s):
 [Mary Miedema]() - McGill University
 
-[Rachael Stickland]() - University of Birmingham
+[Rachael Stickland](https://github.com/RayStick) - University of Birmingham
 
 #### Documentation seat(s)
 [César Caballero-Gaudes]() - Basque Center on Cognition, Brain and Language
